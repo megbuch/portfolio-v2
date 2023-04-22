@@ -34,33 +34,30 @@ export default function Nav() {
   return (
     <>
       {/* desktop navigation */}
-      <nav className="navbar-ctr">
-        <a className="logo" href="/">
-          MB
-        </a>
-        <ul className="navbar-links">
-          <li className="navbar-link">
-            <a href="#top">Home</a>
-          </li>
-          <li className="navbar-link">
-            <a href="#about">About</a>
-          </li>
-          <li className="navbar-link">
-            <a href="#projects">Projects</a>
-          </li>
-          <li className="navbar-link">
-            <a href="#contact">Contact</a>
-          </li>
-        </ul>
-        {/* hamburger */}
-        <div className="hamburger-ctr" onClick={handleHamburgerClick}>
-          {isMobileMenuOpen ? (
-            <FaTimes className="hamburger-icon" />
-          ) : (
-            <FaBars className="hamburger-icon" />
-          )}
-        </div>
-      </nav>
+
+      <ul className="navbar-links">
+        <li className="navbar-link">
+          <a href="#top">Home</a>
+        </li>
+        <li className="navbar-link">
+          <a href="#about">About</a>
+        </li>
+        <li className="navbar-link">
+          <a href="#projects">Projects</a>
+        </li>
+        <li className="navbar-link">
+          <a href="#contact">Contact</a>
+        </li>
+      </ul>
+      {/* hamburger */}
+
+      <div className="hamburger-ctr" onClick={handleHamburgerClick}>
+        {isMobileMenuOpen ? (
+          <FaTimes className="hamburger-icon" />
+        ) : (
+          <FaBars className="hamburger-icon" />
+        )}
+      </div>
       {/* mobile navigation */}
       <ul className={isMobileMenuOpen ? "mobile-links open" : "mobile-links"}>
         <li className="mobile-link">

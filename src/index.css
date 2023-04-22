@@ -1,7 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900");
 :root {
   --light-red: #fc6f76;
   --bright-red: #e43d45;
   --dark-red: #c21b24;
+  --transparent-white: #ffffff98;
+  --transparent-red: #e43d45bd;
   --white: #fff;
   --black: #000;
 }
@@ -12,13 +15,17 @@
   box-sizing: border-box;
 }
 
-body {
-  font: 15px sans-serif;
+html {
+  scroll-behavior: smooth;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+body {
+  font: 17px "Mulish", Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  line-height: 2.2;
+  background: var(--white);
+  color: var(--black);
+  position: relative;
 }
 
 ul {
@@ -28,4 +35,18 @@ ul {
 a {
   color: var(--bright-red);
   text-decoration: none;
+  text-transform: lowercase;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  margin: 0 auto;
+}
+
+h1,
+h2 {
+  color: var(--light-red);
 }
