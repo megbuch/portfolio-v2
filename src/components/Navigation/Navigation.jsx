@@ -1,11 +1,11 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import "./Navigation.css";
 
 export default function Nav() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
-  const handleHamburgerClick = function () {
+  const handleHamburgerClick = () => {
     if (isMobileMenuOpen) {
       setIsMobileMenuOpen(false);
     } else {
@@ -13,9 +13,23 @@ export default function Nav() {
     }
   };
 
-  const handleMobileMenuClick = function () {
+  const handleMobileMenuClick = () => {
     setIsMobileMenuOpen(false);
   };
+
+  useEffect(() => {
+    const handleWindowResize = () => {
+      if (window.innerWidth >= 800) {
+        setIsMobileMenuOpen(false);
+      }
+    };
+
+    window.addEventListener("resize", handleWindowResize);
+
+    return () => {
+      window.removeEventListener("resize", handleWindowResize);
+    };
+  }, []);
 
   return (
     <>
