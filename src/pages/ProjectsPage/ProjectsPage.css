@@ -59,7 +59,7 @@
 #ledgerly-mobile1 {
   width: 150px;
   margin-right: -80px;
-  margin-top: -120px;
+  margin-top: -150px;
 }
 
 #ledgerly-mobile2 {
@@ -67,4 +67,24 @@
   margin-right: -140px;
   margin-bottom: -200px;
   z-index: 1;
+}
+
+#jobseekr-mobile1 {
+  width: 150px;
+  margin-top: -50px;
+  margin-left: -100px;
+  z-index: 1;
+}
+
+#jobseekr-mobile2 {
+  width: 150px;
+  z-index: 2;
+  margin-bottom: -120px;
+  margin-right: -130px;
+}
+
+#jobseekr-tablet {
+  width: 600px;
+  margin-right: -130px;
+  margin-left: 20px;
 }

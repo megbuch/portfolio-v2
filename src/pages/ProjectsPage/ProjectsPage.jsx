@@ -5,6 +5,9 @@ import gitfundedMobile from "../../assets/mockups/gitfunded/gitfunded_mobile.png
 import ledgerlyLaptop from "../../assets/mockups/ledgerly/ledgerly_laptop.png";
 import ledgerlyMobile1 from "../../assets/mockups/ledgerly/ledgerly_mobile_1.png";
 import ledgerlyMobile2 from "../../assets/mockups/ledgerly/ledgerly_mobile_2.png";
+import jobseekrTablet from "../../assets/mockups/jobseekr/jobseekr_tablet.png";
+import jobseekrMobile1 from "../../assets/mockups/jobseekr/jobseekr_mobile_1.png";
+import jobseekrMobile2 from "../../assets/mockups/jobseekr/jobseekr_mobile_2.png";
 
 export default function ProjectsPage() {
   const hiddenElsRef = useRef([]);
@@ -28,18 +31,20 @@ export default function ProjectsPage() {
   }, []);
 
   return (
-    <section className="ProjectsPage">
+    <section className="ProjectsPage col">
       <h2>Featured Work.</h2>
       <div className="project-element row">
         <div className="mockups">
           <img
             id="gitfunded-frame"
+            alt="gitfunded mockup"
             className="mockup hidden"
             src={gitfundedFrame}
             ref={(el) => (hiddenElsRef.current[0] = el)}
           />
           <img
             id="gitfunded-mobile"
+            alt="gitfunded mockup"
             className="mockup hidden"
             src={gitfundedMobile}
             ref={(el) => (hiddenElsRef.current[1] = el)}
@@ -50,7 +55,11 @@ export default function ProjectsPage() {
           ref={(el) => (hiddenElsRef.current[2] = el)}
         >
           <h3>
-            <a href="https://gitfunded.herokuapp.com/" target="_blank">
+            <a
+              href="https://gitfunded.herokuapp.com/"
+              rel="noreferrer"
+              target="_blank"
+            >
               GitFunded
             </a>
           </h3>
@@ -64,61 +73,72 @@ export default function ProjectsPage() {
             manage, and "donate" to fundraising campaigns. Demonstration
             credentials are available upon request.
           </p>
-          <div class="skills">
-            <div class="skill language">
+          <div className="skills">
+            <div className="skill language">
               <p>Python</p>
             </div>
-            <div class="skill language">
+            <div className="skill language">
               <p>HTML5</p>
             </div>
-            <div class="skill language">
+            <div className="skill language">
               <p>CSS3</p>
             </div>
-            <div class="skill library-framework">
+            <div className="skill library-framework">
               <p>Django</p>
             </div>
-            <div class="skill database">
+            <div className="skill database">
               <p>PostgreSQL</p>
             </div>
-            <div class="skill other">
+            <div className="skill other">
               <p>AWS S3</p>
             </div>
-            <div class="skill other">
+            <div className="skill other">
               <p>Django Authentication</p>
             </div>
-            <div class="skill other">
+            <div className="skill other">
               <p>RESTful APIs</p>
             </div>
-            <div class="skill design">
+            <div className="skill design">
               <p>Responsive Design</p>
             </div>
           </div>
-          <a href="https://github.com/codingwithmeg/GitFunded" target="_blank">
+          <a
+            href="https://github.com/codingwithmeg/GitFunded"
+            rel="noreferrer"
+            target="_blank"
+          >
             GitHub Repository
           </a>
           &nbsp;&nbsp;&nbsp;&nbsp;
-          <a href="https://gitfunded.herokuapp.com/" target="_blank">
+          <a
+            href="https://gitfunded.herokuapp.com/"
+            rel="noreferrer"
+            target="_blank"
+          >
             Live Preview
           </a>
         </div>
       </div>
-      <div class="project-element row-reverse">
-        <div class="mockups">
+      <div className="project-element row-reverse">
+        <div className="mockups">
           <img
             id="ledgerly-mobile1"
-            class="mockup hidden"
+            alt="ledgerly mockup"
+            className="mockup hidden"
             src={ledgerlyMobile1}
             ref={(el) => (hiddenElsRef.current[3] = el)}
           />
           <img
             id="ledgerly-mobile2"
-            class="mockup hidden"
+            alt="ledgerly mockup"
+            className="mockup hidden"
             src={ledgerlyMobile2}
             ref={(el) => (hiddenElsRef.current[4] = el)}
           />
           <img
             id="ledgerly-laptop"
-            class="mockup hidden"
+            alt="ledgerly mockup"
+            className="mockup hidden"
             src={ledgerlyLaptop}
             ref={(el) => (hiddenElsRef.current[5] = el)}
           />
@@ -130,6 +150,7 @@ export default function ProjectsPage() {
           <h3>
             <a
               href="https://ledgerly-accounting.herokuapp.com/"
+              rel="noreferrer"
               target="_blank"
             >
               Ledgerly Accounting
@@ -146,71 +167,92 @@ export default function ProjectsPage() {
             token-based user authentication. Demonstration credentials are
             available upon request.
           </p>
-          <div class="skills">
-            <div class="skill language">
+          <div className="skills">
+            <div className="skill language">
               <p>JavaScript</p>
             </div>
-            <div class="skill language">
+            <div className="skill language">
               <p>HTML5</p>
             </div>
-            <div class="skill language">
+            <div className="skill language">
               <p>CSS3</p>
             </div>
-            <div class="skill library-framework">
+            <div className="skill library-framework">
               <p>React</p>
             </div>
-            <div class="skill library-framework">
+            <div className="skill library-framework">
               <p>Node.js</p>
             </div>
-            <div class="skill library-framework">
+            <div className="skill library-framework">
               <p>Express</p>
             </div>
-            <div class="skill library-framework">
+            <div className="skill library-framework">
               <p>Mongoose</p>
             </div>
-            <div class="skill database">
+            <div className="skill database">
               <p>MongoDB</p>
             </div>
-            <div class="skill other">
+            <div className="skill other">
               <p>Token-Based Authentication</p>
             </div>
-            <div class="skill other">
+            <div className="skill other">
               <p>MVC Architecture</p>
             </div>
-            <div class="skill other">
+            <div className="skill other">
               <p>RESTful APIs</p>
             </div>
           </div>
-          <a href="https://github.com/codingwithmeg/ledgerly" target="_blank">
+          <a
+            href="https://github.com/codingwithmeg/ledgerly"
+            rel="noreferrer"
+            target="_blank"
+          >
             GitHub Repository
           </a>
           &nbsp;&nbsp;&nbsp;&nbsp;
-          <a href="https://ledgerly-accounting.herokuapp.com/" target="_blank">
+          <a
+            href="https://ledgerly-accounting.herokuapp.com/"
+            rel="noreferrer"
+            target="_blank"
+          >
             Live Preview
           </a>
         </div>
       </div>
-      <div class="project-element row">
-        <div class="mockups">
+      <div className="project-element row">
+        <div className="mockups">
           <img
-            id="jobseekr-mobile"
-            class="mockup hidden"
-            src="./assets/images/mockups/jobseekr/mobile.png"
+            id="jobseekr-mobile2"
+            alt="jobseekr mockup"
+            className="mockup hidden"
+            src={jobseekrMobile2}
             ref={(el) => (hiddenElsRef.current[7] = el)}
           />
           <img
-            id="jobseekr-tablet"
-            class="mockup hidden"
-            src="./assets/images/mockups/jobseekr/tablet.png"
+            id="jobseekr-mobile1"
+            alt="jobseekr mockup"
+            className="mockup hidden"
+            src={jobseekrMobile1}
             ref={(el) => (hiddenElsRef.current[8] = el)}
+          />
+          <img
+            id="jobseekr-tablet"
+            alt="jobseekr mockup"
+            className="mockup hidden"
+            src={jobseekrTablet}
+            ref={(el) => (hiddenElsRef.current[9] = el)}
           />
         </div>
         <div
-          class="project-info hidden"
-          ref={(el) => (hiddenElsRef.current[9] = el)}
+          className="project-info hidden"
+          ref={(el) => (hiddenElsRef.current[10] = el)}
         >
           <h3>
-            <a href="https://job-seekr.herokuapp.com/" target="_blank">
+            <a
+              href="https://job-seekr.herokuapp.com/"
+              rel="noreferrer"
+              target="_blank"
+            >
               jobSeekr
             </a>
           </h3>
@@ -225,77 +267,84 @@ export default function ProjectsPage() {
             jobSeekr is a MEN-stack CRUD application complete with Google OAuth
             2.0 user authentication.
           </p>
-          <div class="skills">
-            <div class="skill language">
+          <div className="skills">
+            <div className="skill language">
               <p>JavaScript</p>
             </div>
-            <div class="skill language">
+            <div className="skill language">
               <p>HTML5</p>
             </div>
-            <div class="skill language">
+            <div className="skill language">
               <p>CSS3</p>
             </div>
-            <div class="skill language">
+            <div className="skill language">
               <p>EJS</p>
             </div>
-            <div class="skill library-framework">
+            <div className="skill library-framework">
               <p>Node.js</p>
             </div>
-            <div class="skill library-framework">
+            <div className="skill library-framework">
               <p>Express</p>
             </div>
-            <div class="skill library-framework">
+            <div className="skill library-framework">
               <p>Mongoose</p>
             </div>
-            <div class="skill database">
+            <div className="skill database">
               <p>MongoDB</p>
             </div>
-            <div class="skill other">
+            <div className="skill other">
               <p>Google OAuth 2.0</p>
             </div>
-            <div class="skill other">
+            <div className="skill other">
               <p>MVC Architecture</p>
             </div>
-            <div class="skill other">
+            <div className="skill other">
               <p>RESTful APIs</p>
             </div>
-            <div class="skill design">
+            <div className="skill design">
               <p>Responsive Design</p>
             </div>
           </div>
           <a
             href="https://github.com/codingwithmeg/job-seekr-app"
+            rel="noreferrer"
             target="_blank"
           >
             GitHub Repository
           </a>
           &nbsp;&nbsp;&nbsp;&nbsp;
-          <a href="https://job-seekr.herokuapp.com/" target="_blank">
+          <a
+            href="https://job-seekr.herokuapp.com/"
+            rel="noreferrer"
+            target="_blank"
+          >
             Live Preview
           </a>
         </div>
       </div>
-      <div class="project-element row-reverse">
-        <div class="mockups">
+      <div className="project-element row-reverse">
+        <div className="mockups">
           <img
             id="npcgen-mobile"
-            class="mockup hidden"
+            alt="npcgen mockup"
+            className="mockup hidden"
             src="./assets/images/mockups/npcgen/mobile.png"
-            ref={(el) => (hiddenElsRef.current[10] = el)}
+            ref={(el) => (hiddenElsRef.current[11] = el)}
           />
           <img
             id="npcgen-tablet"
-            class="mockup hidden"
+            alt="npcgen mockup"
+            className="mockup hidden"
             src="./assets/images/mockups/npcgen/tablet.png"
-            ref={(el) => (hiddenElsRef.current[11] = el)}
+            ref={(el) => (hiddenElsRef.current[12] = el)}
           />
         </div>
         <div
-          class="project-info hidden"
-          ref={(el) => (hiddenElsRef.current[12] = el)}
+          className="project-info hidden"
+          ref={(el) => (hiddenElsRef.current[13] = el)}
         >
           <h3>
-            <a href="https://npcgen.com/" target="_blank">
+            <a href="https://npcgen.com/" rel="noreferrer" target="_blank">
               NPC Generator
             </a>
           </h3>
@@ -310,28 +359,29 @@ export default function ProjectsPage() {
             experience for the table-top roleplaying game, Dungeons and Dragons.
             All descriptions are custom and have been carefully curated.
           </p>
-          <div class="skills">
-            <div class="skill language">
+          <div className="skills">
+            <div className="skill language">
               <p>JavaScript</p>
             </div>
-            <div class="skill language">
+            <div className="skill language">
               <p>HTML5</p>
             </div>
-            <div class="skill language">
+            <div className="skill language">
               <p>CSS3</p>
             </div>
-            <div class="skill design">
+            <div className="skill design">
               <p>Responsive Design</p>
             </div>
           </div>
           <a
             href="https://github.com/codingwithmeg/npc-generator"
+            rel="noreferrer"
             target="_blank"
           >
             GitHub Repository
           </a>
           &nbsp;&nbsp;&nbsp;&nbsp;
-          <a href="https://npcgen.com/" target="_blank">
+          <a href="https://npcgen.com/" rel="noreferrer" target="_blank">
             Live Preview
           </a>
         </div>
