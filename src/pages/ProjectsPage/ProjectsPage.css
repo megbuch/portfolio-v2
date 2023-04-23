@@ -88,3 +88,14 @@
   margin-right: -130px;
   margin-left: 20px;
 }
+
+#npcgen-mobile {
+  width: 180px;
+  margin-right: -70px;
+  margin-top: -20px;
+  z-index: 2;
+}
+
+#npcgen-laptop {
+  width: 800px;
+}

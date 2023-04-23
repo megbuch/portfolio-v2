@@ -8,6 +8,8 @@ import ledgerlyMobile2 from "../../assets/mockups/ledgerly/ledgerly_mobile_2.png
 import jobseekrTablet from "../../assets/mockups/jobseekr/jobseekr_tablet.png";
 import jobseekrMobile1 from "../../assets/mockups/jobseekr/jobseekr_mobile_1.png";
 import jobseekrMobile2 from "../../assets/mockups/jobseekr/jobseekr_mobile_2.png";
+import npcgenLaptop from "../../assets/mockups/npcgen/npcgen_laptop.png";
+import npcgenMobile from "../../assets/mockups/npcgen/npcgen_mobile.png";
 
 export default function ProjectsPage() {
   const hiddenElsRef = useRef([]);
@@ -328,14 +330,14 @@ export default function ProjectsPage() {
             id="npcgen-mobile"
             alt="npcgen mockup"
             className="mockup hidden"
-            src="./assets/images/mockups/npcgen/mobile.png"
+            src={npcgenMobile}
             ref={(el) => (hiddenElsRef.current[11] = el)}
           />
           <img
-            id="npcgen-tablet"
+            id="npcgen-laptop"
             alt="npcgen mockup"
             className="mockup hidden"
-            src="./assets/images/mockups/npcgen/tablet.png"
+            src={npcgenLaptop}
             ref={(el) => (hiddenElsRef.current[12] = el)}
           />
         </div>
