@@ -1,0 +1,10 @@
+.icons > a:hover {
+  color: var(--bright-red);
+}
+
+.icons {
+  font-size: 1.3rem;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}

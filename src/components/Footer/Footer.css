@@ -8,20 +8,15 @@
   color: rgb(189, 189, 189);
 }
 
-.Footer > a,
-.icons > a {
+.Footer > a {
   font-size: 18px;
   color: var(--light-red);
 }
 
-.Footer > a:hover,
-.icons > a:hover {
+.Footer > a:hover {
   color: var(--bright-red);
 }
 
-.icons {
-  font-size: 1.5rem;
-  display: flex;
-  justify-content: center;
-  gap: 2rem;
+.Footer .icons > a {
+  color: var(--light-red);
 }

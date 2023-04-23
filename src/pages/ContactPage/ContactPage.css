@@ -1,0 +1,18 @@
+.ContactPage > p {
+  font-size: 0.9rem;
+  line-height: 1.6;
+  text-align: center;
+}
+
+.ContactPage .icons {
+  margin: 5px 0 10px 0;
+}
+
+.ContactPage .icons > a {
+  font-size: 1.8rem;
+  color: var(--bright-red);
+}
+
+.ContactPage .icons > a:hover {
+  color: black;
+}
