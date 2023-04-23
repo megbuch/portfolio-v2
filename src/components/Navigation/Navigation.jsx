@@ -35,8 +35,6 @@ export default function Nav() {
 
   return (
     <>
-      {/* desktop navigation */}
-
       <ul className="navbar-links">
         <li className="navbar-link">
           <Link to="/">Home</Link>
@@ -56,8 +54,6 @@ export default function Nav() {
           </a>
         </li>
       </ul>
-      {/* hamburger */}
-
       <div className="hamburger-ctr" onClick={handleHamburgerClick}>
         {isMobileMenuOpen ? (
           <FaTimes className="hamburger-icon" />
@@ -65,7 +61,6 @@ export default function Nav() {
           <FaBars className="hamburger-icon" />
         )}
       </div>
-      {/* mobile navigation */}
       <ul className={isMobileMenuOpen ? "mobile-links open" : "mobile-links"}>
         <li className="mobile-link">
           <Link to="/" onClick={handleMobileMenuClick}>

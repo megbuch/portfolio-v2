@@ -1,0 +1,27 @@
+.Footer {
+  gap: 0;
+  padding: 1rem;
+  font-size: 12px;
+  text-transform: lowercase;
+  background-color: #1b1a1a;
+  border-top: 1px solid rgb(37, 37, 37);
+  color: rgb(189, 189, 189);
+}
+
+.Footer > a,
+.icons > a {
+  font-size: 18px;
+  color: var(--light-red);
+}
+
+.Footer > a:hover,
+.icons > a:hover {
+  color: var(--bright-red);
+}
+
+.icons {
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}

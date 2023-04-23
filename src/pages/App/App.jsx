@@ -5,6 +5,7 @@ import HeroPage from "../../pages/HeroPage/HeroPage";
 import AboutPage from "../../pages/AboutPage/AboutPage";
 import ProjectsPage from "../ProjectsPage/ProjectsPage";
 import ContactPage from "../ContactPage/ContactPage";
+import Footer from "../../components/Footer/Footer";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/projects" element={<ProjectsPage />} />
         <Route path="/contact" element={<ContactPage />} />
       </Routes>
+      <Footer />
     </div>
   );
 }
