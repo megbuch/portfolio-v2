@@ -1,0 +1,54 @@
+.skills {
+  margin: 1em 0;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  flex-wrap: wrap;
+  max-width: 40em;
+}
+
+.skill {
+  height: 22px;
+  line-height: 22px;
+  border-radius: 8px;
+  padding: 0 8px;
+  margin: 5px 8px 5px 0;
+  font-weight: 600;
+  font-size: 14px;
+  position: relative;
+  top: 0;
+  transition: 50ms ease-out;
+  cursor: default;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.skill:hover {
+  top: -2px;
+}
+
+.language {
+  background: #ffeeef;
+  color: #e43d45;
+}
+
+.library-framework {
+  background: #e8f8ff;
+  color: #2da3da;
+}
+
+.database {
+  background: #f0edff;
+  color: #7056e0;
+}
+
+.other {
+  background: #e2ffdf;
+  color: #2e9450;
+}
+
+.design {
+  background: #ffe3fb;
+  color: #bb46ab;
+}

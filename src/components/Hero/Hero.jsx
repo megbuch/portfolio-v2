@@ -6,7 +6,7 @@ import image from "../../assets/images/woman-with-tablet.png";
 
 export default function Hero() {
   useEffect(() => {
-    const titles = gsap.utils.toArray("p");
+    const titles = gsap.utils.toArray(".text-wrapper > p");
     const tl = gsap.timeline();
 
     titles.forEach((title) => {
@@ -38,7 +38,6 @@ export default function Hero() {
           <h1>Meghan Bucher</h1>
           <div className="text-container">
             <div className="text-wrapper">
-              <p></p>
               <p>I'm a Software Engineer.</p>
               <p>Full Stack Developer.</p>
               <p>Front End Wizard.</p>
@@ -46,7 +45,6 @@ export default function Hero() {
             </div>
           </div>
         </div>
-
         <img alt="woman holding tablet" src={image}></img>
       </section>
     </>

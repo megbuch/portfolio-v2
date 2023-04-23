@@ -8,14 +8,14 @@
 }
 
 .Hero h1 {
-  font-size: 8rem;
-  line-height: 1.2;
+  font-size: 6rem;
+  line-height: 2;
   font-weight: 400;
   letter-spacing: -10px;
 }
 
 .Hero p {
-  font-size: 2.5rem;
+  font-size: 2.2rem;
   text-transform: lowercase;
   line-height: 0.5;
 }
@@ -25,7 +25,7 @@
 }
 
 .Hero > img {
-  margin-top: 40px;
+  margin-bottom: -50px;
   width: 200px;
   opacity: 80%;
 }
