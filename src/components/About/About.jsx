@@ -5,17 +5,18 @@ import Education from "../Education/Education";
 
 export default function About() {
   return (
-    <section className="About">
+    <section id="about">
       <div className="about-wrapper row">
         <div className="text-content">
           <h2>About.</h2>
           <p>
-            Hello! My name is Meghan!
+            Hello! My name is Meghan.
             <br />
             I'm a full stack developer based in the San Francisco Bay Area.
             <br />
-            Working at the intersection of art and functionality, my passion is
-            delivering engaging, memorable, and meaningful user experiences.
+            My passion is delivering engaging, memorable, and meaningful user
+            experiences. Thriving in the front end, I enjoy working at the
+            intersection of art and functionality.
             <br />
             Currently, I'm developing the front end at&nbsp;
             <a target="_blank" rel="noreferrer" href="https://spacelab.space/">
@@ -30,8 +31,10 @@ export default function About() {
           </div>
         </div>
       </div>
-      <Skills />
-      <Education />
+      <div className="row">
+        <Skills />
+        <Education />
+      </div>
     </section>
   );
 }

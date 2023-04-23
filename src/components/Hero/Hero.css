@@ -5,17 +5,18 @@
   align-items: center;
   gap: 4em;
   padding: 1em;
+  height: 33vh;
 }
 
 .Hero h1 {
-  font-size: 6rem;
+  font-size: 5rem;
   line-height: 2;
   font-weight: 400;
-  letter-spacing: -10px;
+  letter-spacing: -5px;
 }
 
 .Hero p {
-  font-size: 2.2rem;
+  font-size: 2rem;
   text-transform: lowercase;
   line-height: 0.5;
 }
@@ -26,6 +27,6 @@
 
 .Hero > img {
   margin-bottom: -50px;
-  width: 200px;
+  width: 180px;
   opacity: 80%;
 }

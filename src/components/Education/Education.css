@@ -1,0 +1,13 @@
+.education-wrapper {
+  width: 50%;
+}
+
+.education-wrapper > .row {
+  justify-content: left;
+  gap: 5rem;
+  margin: 0;
+}
+
+.education-card {
+  font-size: 0.9rem;
+}

@@ -1,13 +1,18 @@
+.about-wrapper {
+  justify-content: center;
+}
+
 .text-content {
   width: 40%;
 }
 
 .img-container {
   width: 18em;
-  height: 18em;
+  height: 20em;
   overflow: hidden;
   position: relative;
   border-radius: 8px;
+  margin-bottom: -50px;
 }
 
 .img-container img {
@@ -17,7 +22,7 @@
   display: block;
   opacity: 1;
   transition: all 0.3s ease-in-out;
-  transform: translateY(-40px);
+  transform: translateY(-25px);
 }
 
 .img-overlay:before {

@@ -2,9 +2,9 @@
   margin: 1em 0;
   display: flex;
   align-items: center;
-  justify-content: left;
+  justify-content: center;
   flex-wrap: wrap;
-  max-width: 40em;
+  max-width: 20em;
 }
 
 .skill {
