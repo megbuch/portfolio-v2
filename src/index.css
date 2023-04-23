@@ -6,8 +6,6 @@
   --transparent-white: #ffffff98;
   --transparent-red: #e43d45bd;
   --overlay-red: #e43d6138;
-  --white: #fff;
-  --black: #000;
 }
 
 * {
@@ -37,6 +35,11 @@ a {
   color: var(--bright-red);
   text-decoration: none;
   text-transform: lowercase;
+  font-weight: 600;
+}
+
+a:hover {
+  color: black;
 }
 
 section {

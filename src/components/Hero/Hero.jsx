@@ -33,7 +33,7 @@ export default function Hero() {
 
   return (
     <>
-      <section className="Hero">
+      <section className="Hero row">
         <div>
           <h1>Meghan Bucher</h1>
           <div className="text-container">
@@ -42,6 +42,9 @@ export default function Hero() {
               <p>Full Stack Developer.</p>
               <p>Front End Wizard.</p>
               <p className="accent">Creative.</p>
+            </div>
+            <div className="btn">
+              <a href="#">Explore my work</a>
             </div>
           </div>
         </div>
