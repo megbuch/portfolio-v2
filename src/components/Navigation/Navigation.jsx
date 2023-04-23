@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
+import { Link } from "react-router-dom";
 import "./Navigation.css";
 
 export default function Nav() {
@@ -37,16 +38,16 @@ export default function Nav() {
 
       <ul className="navbar-links">
         <li className="navbar-link">
-          <a href="#top">Home</a>
+          <Link to="/">Home</Link>
         </li>
         <li className="navbar-link">
-          <a href="#about">About</a>
+          <Link to="/about">About</Link>
         </li>
         <li className="navbar-link">
-          <a href="#projects">Projects</a>
+          <Link to="/projects">Projects</Link>
         </li>
         <li className="navbar-link">
-          <a href="#contact">Contact</a>
+          <Link to="/contact">Contact</Link>
         </li>
       </ul>
       {/* hamburger */}

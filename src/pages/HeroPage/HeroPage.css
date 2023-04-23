@@ -1,0 +1,58 @@
+.HeroPage {
+  text-align: left;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+  height: 100vh;
+}
+
+.HeroPage h1 {
+  font-size: 7rem;
+  line-height: 2;
+  font-weight: 400;
+  letter-spacing: -5px;
+}
+
+.text-wrapper > p {
+  font-size: 3rem;
+  text-transform: lowercase;
+  line-height: 0.5;
+}
+
+.accent {
+  color: rgb(255, 213, 136);
+}
+
+.HeroPage > img {
+  margin-bottom: -50px;
+  width: 250px;
+  opacity: 80%;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3.5rem;
+  width: 14rem;
+  background-color: var(--bright-red);
+  border-radius: 5px;
+  margin: 3.5rem 0;
+  transition: 100ms ease-in-out;
+  position: relative;
+  top: 0px;
+}
+
+.btn:hover {
+  background-color: var(--dark-red);
+  cursor: pointer;
+  color: white;
+  top: -2px;
+}
+
+.btn > a {
+  color: white;
+  text-transform: lowercase;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
