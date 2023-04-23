@@ -12,7 +12,7 @@
 .show {
   opacity: 1;
   filter: blur(0);
-  transform: translateX(0);
+  transform: translateY(0);
 }
 
 .project-element {
@@ -22,7 +22,7 @@
 }
 
 .project-info {
-  width: 40%;
+  width: 35%;
 }
 
 .mockups {
@@ -47,11 +47,24 @@
   margin-top: -20px;
 }
 
-/* #gitfunded-tablet {
-  width: 100px;
-} */
-
 #gitfunded-mobile {
   width: 250px;
   margin-left: -10px;
+}
+
+#ledgerly-laptop {
+  width: 800px;
+}
+
+#ledgerly-mobile1 {
+  width: 150px;
+  margin-right: -80px;
+  margin-top: -120px;
+}
+
+#ledgerly-mobile2 {
+  width: 150px;
+  margin-right: -140px;
+  margin-bottom: -200px;
+  z-index: 1;
 }
