@@ -1,5 +1,6 @@
 import "./HeroPage.css";
 import { useEffect } from "react";
+import { Link } from "react-router-dom";
 import gsap from "gsap";
 import SplitTextJS from "split-text-js";
 import image from "../../assets/images/woman-with-tablet.png";
@@ -44,7 +45,7 @@ export default function Hero() {
               <p className="accent">Creative.</p>
             </div>
             <div className="btn">
-              <a href="#">Explore my work</a>
+              <Link to="/projects">Explore my work</Link>
             </div>
           </div>
         </div>

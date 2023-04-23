@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from "react-router-dom";
+import resume from "../../assets/documents/resume.pdf";
 import "./Navigation.css";
 
 export default function Nav() {
@@ -49,6 +50,11 @@ export default function Nav() {
         <li className="navbar-link">
           <Link to="/contact">Contact</Link>
         </li>
+        <li className="navbar-link">
+          <a href={resume} rel="noreferrer" target="_blank">
+            Resume
+          </a>
+        </li>
       </ul>
       {/* hamburger */}
 
@@ -62,23 +68,28 @@ export default function Nav() {
       {/* mobile navigation */}
       <ul className={isMobileMenuOpen ? "mobile-links open" : "mobile-links"}>
         <li className="mobile-link">
-          <a href="#top" onClick={handleMobileMenuClick}>
+          <Link to="/" onClick={handleMobileMenuClick}>
             Home
-          </a>
+          </Link>
         </li>
         <li className="mobile-link">
-          <a href="#about" onClick={handleMobileMenuClick}>
+          <Link to="/about" onClick={handleMobileMenuClick}>
             About
-          </a>
+          </Link>
         </li>
         <li className="mobile-link">
-          <a href="#projects" onClick={handleMobileMenuClick}>
+          <Link to="/projects" onClick={handleMobileMenuClick}>
             Projects
-          </a>
+          </Link>
         </li>
         <li className="mobile-link">
-          <a href="#contact" onClick={handleMobileMenuClick}>
+          <Link to="/contact" onClick={handleMobileMenuClick}>
             Contact
+          </Link>
+        </li>
+        <li className="mobile-link">
+          <a href={resume} rel="noreferrer" target="_blank">
+            Resume
           </a>
         </li>
       </ul>

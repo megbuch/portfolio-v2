@@ -34,7 +34,7 @@ export default function ProjectsPage() {
 
   return (
     <section className="ProjectsPage col">
-      <h2>Featured Work.</h2>
+      <h2>Featured Projects.</h2>
       <div className="project-element row">
         <div className="mockups">
           <img

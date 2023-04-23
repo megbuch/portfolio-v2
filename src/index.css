@@ -4,8 +4,8 @@
   --bright-red: #e43d45;
   --dark-red: #c21b24;
   --transparent-white: #ffffff98;
-  --transparent-red: #e43d45bd;
-  --overlay-red: #e43d6138;
+  --transparent-red: #e43d4552;
+  --overlay-red: #f8485738;
 }
 
 * {
@@ -94,4 +94,31 @@ h2 {
 
 .wrap {
   flex-wrap: wrap;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3.5rem;
+  width: 14rem;
+  background-color: var(--bright-red);
+  border-radius: 5px;
+  transition: 100ms ease-in-out;
+  position: relative;
+  top: 0px;
+}
+
+.btn:hover {
+  background-color: var(--dark-red);
+  cursor: pointer;
+  color: white;
+  top: -2px;
+}
+
+.btn > a {
+  color: white;
+  text-transform: lowercase;
+  font-weight: 300;
+  letter-spacing: 1px;
 }

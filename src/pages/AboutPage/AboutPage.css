@@ -7,12 +7,12 @@
 }
 
 .img-container {
-  width: 18em;
-  height: 18em;
+  width: 17em;
+  height: 20em;
   overflow: hidden;
   position: relative;
-  border-radius: 50%;
-  margin-bottom: -50px;
+  border-radius: 9px;
+  border: 2px solid var(--transparent-red);
 }
 
 .img-container img {
@@ -40,4 +40,8 @@
 
 .img-overlay:hover:before {
   opacity: 30%;
+}
+
+.AboutPage .btn {
+  margin: 3rem 0;
 }
