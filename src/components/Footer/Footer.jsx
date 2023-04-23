@@ -15,17 +15,13 @@ export default function Footer() {
       </a>
       <div className="icons">
         <a
-          href="mailto: codingwithmeg@gmail.com"
+          href="mailto: hiremeghanbucher@gmail.com"
           target="_blank"
           rel="noreferrer"
         >
           <FontAwesomeIcon icon={faEnvelope} />
         </a>
-        <a
-          href="https://github.com/codingwithmeg"
-          target="_blank"
-          rel="noreferrer"
-        >
+        <a href="https://github.com/megbuch" target="_blank" rel="noreferrer">
           <FontAwesomeIcon icon={faGithub} />
         </a>
         <a

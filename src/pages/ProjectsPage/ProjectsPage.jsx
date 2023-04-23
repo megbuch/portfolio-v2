@@ -105,7 +105,7 @@ export default function ProjectsPage() {
             </div>
           </div>
           <a
-            href="https://github.com/codingwithmeg/GitFunded"
+            href="https://github.com/megbuch/GitFunded"
             rel="noreferrer"
             target="_blank"
           >
@@ -205,7 +205,7 @@ export default function ProjectsPage() {
             </div>
           </div>
           <a
-            href="https://github.com/codingwithmeg/ledgerly"
+            href="https://github.com/megbuch/ledgerly"
             rel="noreferrer"
             target="_blank"
           >
@@ -308,7 +308,7 @@ export default function ProjectsPage() {
             </div>
           </div>
           <a
-            href="https://github.com/codingwithmeg/job-seekr-app"
+            href="https://github.com/megbuch/job-seekr-app"
             rel="noreferrer"
             target="_blank"
           >
@@ -376,7 +376,7 @@ export default function ProjectsPage() {
             </div>
           </div>
           <a
-            href="https://github.com/codingwithmeg/npc-generator"
+            href="https://github.com/megbuch/npc-generator"
             rel="noreferrer"
             target="_blank"
           >
