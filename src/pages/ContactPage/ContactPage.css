@@ -1,15 +1,15 @@
 .ContactPage > p {
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   line-height: 1.6;
   text-align: center;
 }
 
 .ContactPage .icons {
-  margin: 5px 0 10px 0;
+  margin-bottom: 5px;
 }
 
 .ContactPage .icons > a {
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   color: var(--bright-red);
 }
 
