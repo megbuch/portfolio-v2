@@ -1,9 +1,9 @@
 form {
-  width: 25rem;
+  width: 30rem;
   background-color: rgb(243, 243, 243);
   display: flex;
   flex-direction: column;
-  padding: 2rem;
+  padding: 1.5rem;
   font-size: 12px;
   font-weight: 700;
   border-radius: 8px;
@@ -26,9 +26,9 @@ textarea {
   width: 100%;
   border: 1px solid rgb(226, 226, 226);
   border-radius: 6px;
-  padding: 8px;
+  padding: 12px;
   resize: none;
-  font: 14px "Mulish", Helvetica, Arial, sans-serif;
+  font: 15px "Mulish", Helvetica, Arial, sans-serif;
   font-weight: 600;
 }
 
@@ -60,4 +60,16 @@ input[type="submit"]:hover {
 
 .recaptcha {
   margin: 1rem;
+}
+
+@media only screen and (max-width: 500px) {
+  form {
+    width: 90vw;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  form {
+    width: 95vw;
+  }
 }
