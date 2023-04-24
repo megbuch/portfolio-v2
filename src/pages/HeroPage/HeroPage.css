@@ -4,6 +4,7 @@
   align-items: center;
   padding: 1em;
   height: 100vh;
+  z-index: 1;
 }
 
 .HeroPage h1 {

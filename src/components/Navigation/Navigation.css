@@ -24,7 +24,7 @@
   top: 20px;
   right: 30px;
   position: fixed;
-  z-index: 10;
+  z-index: 200;
 }
 
 .mobile-links {
@@ -43,14 +43,14 @@
   position: fixed;
   top: 0;
   right: 0;
-  z-index: 4;
-  backdrop-filter: blur(10px);
+  z-index: 100;
   transform: translateX(105%);
   transition: transform 0.4s ease-in-out;
+  overflow: hidden;
 }
 
 .mobile-link a {
-  color: var(--medium-gray);
+  color: var(--deep-gray);
   font-weight: 400;
   text-decoration: none;
 }

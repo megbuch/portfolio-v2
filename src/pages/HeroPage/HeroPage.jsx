@@ -14,7 +14,7 @@ export default function Hero() {
       const splitTitle = new SplitTextJS(title);
       tl.from(
         splitTitle.chars,
-        { opacity: 0, y: 40, rotateX: -60, stagger: 0.02, duration: 2 },
+        { opacity: 0, y: 40, rotateX: -60, stagger: 0.01, duration: 3 },
         "<"
       ).to(
         splitTitle.chars,
