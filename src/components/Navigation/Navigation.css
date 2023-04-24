@@ -10,7 +10,7 @@
   left: 0;
   right: 0;
   padding: 15px;
-  z-index: 3;
+  z-index: 4;
 }
 
 .hamburger-ctr {
@@ -24,7 +24,7 @@
   top: 20px;
   right: 30px;
   position: fixed;
-  z-index: 3;
+  z-index: 5;
 }
 
 .mobile-links {
@@ -32,27 +32,23 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 2rem;
+  gap: 0rem;
   font-size: 2rem;
-  background-color: var(--transparent-red);
-  height: 100vh;
+  background-color: var(--transparent-white);
+  height: 50vh;
   width: 100vw;
   position: fixed;
   top: 0;
   right: 0;
-  z-index: 2;
+  z-index: 4;
   backdrop-filter: blur(5px);
   transform: translateY(-100%);
   transition: transform 0.5s ease-in-out;
 }
 
-.mobile-link {
-  margin-bottom: 16px;
-}
-
 .mobile-link a {
-  color: white;
-  font-weight: 400;
+  color: var(--bright-red);
+  font-weight: 600;
   text-decoration: none;
 }
 

@@ -2,7 +2,7 @@ import "./Skills.css";
 
 export default function Skills() {
   return (
-    <div>
+    <div className="skills-wrapper">
       <h2>Skills.</h2>
       <div className="skills">
         <div className="skill language">

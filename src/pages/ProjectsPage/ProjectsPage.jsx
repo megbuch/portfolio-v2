@@ -3,11 +3,9 @@ import { useRef, useEffect } from "react";
 import gitfundedFrame from "../../assets/mockups/gitfunded/gitfunded_frame.png";
 import gitfundedMobile from "../../assets/mockups/gitfunded/gitfunded_mobile.png";
 import ledgerlyLaptop from "../../assets/mockups/ledgerly/ledgerly_laptop.png";
-import ledgerlyMobile1 from "../../assets/mockups/ledgerly/ledgerly_mobile_1.png";
-import ledgerlyMobile2 from "../../assets/mockups/ledgerly/ledgerly_mobile_2.png";
+import ledgerlyMobile from "../../assets/mockups/ledgerly/ledgerly_mobile.png";
 import jobseekrTablet from "../../assets/mockups/jobseekr/jobseekr_tablet.png";
-import jobseekrMobile1 from "../../assets/mockups/jobseekr/jobseekr_mobile_1.png";
-import jobseekrMobile2 from "../../assets/mockups/jobseekr/jobseekr_mobile_2.png";
+import jobseekrMobile from "../../assets/mockups/jobseekr/jobseekr_mobile.png";
 import npcgenLaptop from "../../assets/mockups/npcgen/npcgen_laptop.png";
 import npcgenMobile from "../../assets/mockups/npcgen/npcgen_mobile.png";
 
@@ -19,8 +17,6 @@ export default function ProjectsPage() {
       entries.forEach((entry) => {
         if (entry.isIntersecting) {
           entry.target.classList.add("show");
-        } else {
-          entry.target.classList.remove("show");
         }
       });
     });
@@ -124,30 +120,23 @@ export default function ProjectsPage() {
       <div className="project-element row-reverse">
         <div className="mockups">
           <img
-            id="ledgerly-mobile1"
+            id="ledgerly-mobile"
             alt="ledgerly mockup"
             className="mockup hidden"
-            src={ledgerlyMobile1}
+            src={ledgerlyMobile}
             ref={(el) => (hiddenElsRef.current[3] = el)}
-          />
-          <img
-            id="ledgerly-mobile2"
-            alt="ledgerly mockup"
-            className="mockup hidden"
-            src={ledgerlyMobile2}
-            ref={(el) => (hiddenElsRef.current[4] = el)}
           />
           <img
             id="ledgerly-laptop"
             alt="ledgerly mockup"
             className="mockup hidden"
             src={ledgerlyLaptop}
-            ref={(el) => (hiddenElsRef.current[5] = el)}
+            ref={(el) => (hiddenElsRef.current[4] = el)}
           />
         </div>
         <div
-          class="project-info hidden"
-          ref={(el) => (hiddenElsRef.current[6] = el)}
+          className="project-info hidden"
+          ref={(el) => (hiddenElsRef.current[5] = el)}
         >
           <h3>
             <a
@@ -224,30 +213,23 @@ export default function ProjectsPage() {
       <div className="project-element row">
         <div className="mockups">
           <img
-            id="jobseekr-mobile2"
-            alt="jobseekr mockup"
-            className="mockup hidden"
-            src={jobseekrMobile2}
-            ref={(el) => (hiddenElsRef.current[7] = el)}
-          />
-          <img
-            id="jobseekr-mobile1"
-            alt="jobseekr mockup"
-            className="mockup hidden"
-            src={jobseekrMobile1}
-            ref={(el) => (hiddenElsRef.current[8] = el)}
-          />
-          <img
             id="jobseekr-tablet"
             alt="jobseekr mockup"
             className="mockup hidden"
             src={jobseekrTablet}
-            ref={(el) => (hiddenElsRef.current[9] = el)}
+            ref={(el) => (hiddenElsRef.current[6] = el)}
+          />
+          <img
+            id="jobseekr-mobile"
+            alt="jobseekr mockup"
+            className="mockup hidden"
+            src={jobseekrMobile}
+            ref={(el) => (hiddenElsRef.current[7] = el)}
           />
         </div>
         <div
           className="project-info hidden"
-          ref={(el) => (hiddenElsRef.current[10] = el)}
+          ref={(el) => (hiddenElsRef.current[8] = el)}
         >
           <h3>
             <a
@@ -331,19 +313,19 @@ export default function ProjectsPage() {
             alt="npcgen mockup"
             className="mockup hidden"
             src={npcgenMobile}
-            ref={(el) => (hiddenElsRef.current[11] = el)}
+            ref={(el) => (hiddenElsRef.current[9] = el)}
           />
           <img
             id="npcgen-laptop"
             alt="npcgen mockup"
             className="mockup hidden"
             src={npcgenLaptop}
-            ref={(el) => (hiddenElsRef.current[12] = el)}
+            ref={(el) => (hiddenElsRef.current[10] = el)}
           />
         </div>
         <div
           className="project-info hidden"
-          ref={(el) => (hiddenElsRef.current[13] = el)}
+          ref={(el) => (hiddenElsRef.current[11] = el)}
         >
           <h3>
             <a href="https://npcgen.com/" rel="noreferrer" target="_blank">

@@ -2,41 +2,41 @@ import "./Education.css";
 
 export default function Education() {
   return (
-    <div className="education-wrapper">
+    <div className="Education">
       <h2>Education.</h2>
-      <div className="row">
-        <p className="education-card">
-          <b>
-            B.S. Business Administration,
+      <div className="cards">
+        <div className="card">
+          <h3>B.S. Business Administration, Management Information Systems</h3>
+          <p>
+            San Jose State University
             <br />
-            Management Information Systems
-          </b>
-          <br />
-          San Jose State University
-          <br />
-          Est. Grad. June 2025
-          <br />
-          <br />
-          <b>A.S. Business Administration</b>
-          <br />
-          De Anza College
-          <br />
-          Grad. June 2020
-        </p>
-        <p className="education-card">
-          <b>Software Engineering Immersive</b>
-          <br />
-          General Assembly
-          <br />
-          Cert. Awarded March 2023
-          <br />
-          <br />
-          <b>Certified Scrum Master</b>
-          <br />
-          Scrum Alliance
-          <br />
-          Cert. Awarded March 2023
-        </p>
+            Est. Grad. June 2025
+          </p>
+        </div>
+        <div className="card">
+          <h3>A.S. Business Administration</h3>
+          <p>
+            De Anza College
+            <br />
+            Grad. June 2020
+          </p>
+        </div>
+        <div className="card">
+          <h3>Software Engineering Immersive</h3>
+          <p>
+            General Assembly
+            <br />
+            Cert. Awarded March 2023
+          </p>
+        </div>
+        <div className="card">
+          <h3>Certified Scrum Master</h3>
+          <p>
+            Scrum Alliance
+            <br />
+            Cert. Awarded March 2023
+          </p>
+        </div>
       </div>
     </div>
   );

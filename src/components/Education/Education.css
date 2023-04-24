@@ -1,13 +1,39 @@
-.education-wrapper {
-  width: 50%;
+.Education .cards {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
-.education-wrapper > .row {
-  justify-content: left;
-  gap: 2rem;
-  margin: 0;
+.Education .card {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 15px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.123);
 }
 
-.education-card {
+.Education .card h3 {
+  font-weight: bold;
   font-size: 0.9rem;
+  margin-top: 0;
+}
+
+.Education .card p {
+  font-size: 0.8rem;
+}
+
+@media only screen and (max-width: 820px) {
+  .Education {
+    width: 85vw;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .Education {
+    width: 90vw;
+  }
 }

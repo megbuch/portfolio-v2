@@ -30,7 +30,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 50%;
 }
 
 .mockup {
@@ -44,59 +43,166 @@
 }
 
 #gitfunded-frame {
-  width: 450px;
-  margin-top: -20px;
+  width: 22vw;
+  margin-top: -30px;
 }
 
 #gitfunded-mobile {
-  width: 250px;
+  width: 10vw;
   margin-left: -10px;
+  z-index: 1;
 }
 
 #ledgerly-laptop {
-  width: 800px;
+  width: 44vw;
 }
 
-#ledgerly-mobile1 {
-  width: 150px;
-  margin-right: -80px;
-  margin-top: -150px;
-}
-
-#ledgerly-mobile2 {
-  width: 150px;
-  margin-right: -140px;
-  margin-bottom: -200px;
+#ledgerly-mobile {
+  width: 10vw;
+  margin-top: -40px;
+  margin-right: -120px;
   z-index: 1;
 }
 
-#jobseekr-mobile1 {
-  width: 150px;
-  margin-top: -50px;
-  margin-left: -100px;
+#jobseekr-mobile {
+  width: 10vw;
   z-index: 1;
-}
-
-#jobseekr-mobile2 {
-  width: 150px;
-  z-index: 2;
-  margin-bottom: -120px;
-  margin-right: -130px;
+  margin-left: 10px;
 }
 
 #jobseekr-tablet {
-  width: 600px;
-  margin-right: -130px;
-  margin-left: 20px;
+  width: 30vw;
 }
 
 #npcgen-mobile {
-  width: 180px;
-  margin-right: -100px;
+  width: 10vw;
+  margin-right: -120px;
   margin-top: -20px;
   z-index: 2;
 }
 
 #npcgen-laptop {
-  width: 800px;
+  width: 42vw;
+  margin-right: -80px;
+}
+
+/* media queries */
+@media only screen and (max-width: 1300px) {
+  .ProjectsPage {
+    gap: 0;
+  }
+
+  .project-element {
+    flex-direction: column;
+  }
+
+  .project-info {
+    width: 80vw;
+  }
+
+  #gitfunded-frame {
+    width: 35vw;
+  }
+
+  #gitfunded-mobile {
+    width: 18vw;
+  }
+
+  #ledgerly-laptop {
+    width: 68vw;
+  }
+
+  #ledgerly-mobile {
+    width: 15vw;
+  }
+
+  #jobseekr-mobile {
+    width: 16vw;
+    margin-right: -20px;
+  }
+
+  #jobseekr-tablet {
+    width: 50vw;
+  }
+
+  #npcgen-mobile {
+    width: 16vw;
+  }
+
+  #npcgen-laptop {
+    width: 70vw;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .project-info {
+    width: 95vw;
+  }
+
+  #gitfunded-frame {
+    width: 60vw;
+  }
+
+  #gitfunded-mobile {
+    width: 30vw;
+    margin-left: -30px;
+  }
+
+  #ledgerly-laptop {
+    width: 90vw;
+    margin-right: 15px;
+  }
+
+  #ledgerly-mobile {
+    width: 18vw;
+  }
+
+  #jobseekr-mobile {
+    width: 18vw;
+    margin-right: 20px;
+  }
+
+  #jobseekr-tablet {
+    width: 70vw;
+  }
+
+  #npcgen-mobile {
+    width: 18vw;
+  }
+
+  #npcgen-laptop {
+    width: 90vw;
+    margin-right: 20px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #ledgerly-laptop {
+    width: 90vw;
+    margin-right: 0px;
+  }
+
+  #ledgerly-mobile {
+    width: 18vw;
+    margin-right: -70px;
+  }
+
+  #jobseekr-mobile {
+    width: 18vw;
+    margin-left: -15px;
+  }
+
+  #jobseekr-tablet {
+    width: 68vw;
+  }
+
+  #npcgen-mobile {
+    width: 18vw;
+    margin-right: -70px;
+  }
+
+  #npcgen-laptop {
+    width: 90vw;
+    margin-right: 10px;
+  }
 }
