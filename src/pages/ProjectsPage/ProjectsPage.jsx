@@ -19,7 +19,7 @@ export default function ProjectsPage() {
       id: 1,
       title: "GitFunded",
       mockup: gitfundedFrame,
-      description: "Python, Django",
+      description: "Python, Django, PostgreSQL",
       repoLink: "https://github.com/megbuch/GitFunded",
       liveLink: "https://gitfunded.herokuapp.com/",
     },
