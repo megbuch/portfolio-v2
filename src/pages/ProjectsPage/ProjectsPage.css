@@ -1,188 +1,98 @@
-.ProjectsPage .skills {
-  justify-content: left;
-  margin: 2rem 0;
-}
-
-.ProjectsPage h3 {
-  font-size: 2rem;
-}
-
-.hidden {
-  opacity: 0;
-  transition: all 1s;
-  filter: blur(5px);
-  transform: translateX(-20%);
-}
-
-.show {
-  opacity: 1;
-  filter: blur(0);
-  transform: translateY(0);
-}
-
-.project-element {
-  align-items: center;
-  justify-content: center;
-  margin: 4rem auto;
-}
-
-.project-info {
-  width: 35%;
-}
-
-.mockups {
+.projects-container {
   display: flex;
-  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
+  margin: 1.5rem 0;
+  gap: 16px;
 }
 
-.mockup {
-  top: 0;
-  transition: 600ms ease-out;
+.project-card {
+  width: 22rem;
+  height: 20rem;
+  border-radius: 8px;
+  box-shadow: 0 0 5px #c0b4b4;
+  overflow: hidden;
   position: relative;
 }
 
-.mockup:hover {
-  top: -20px;
+.project-image {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  transition: transform 0.3s ease;
 }
 
-#gitfunded-frame {
-  width: 22vw;
-  border-radius: 8px;
+.project-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 4rem;
+  background-color: rgba(0, 0, 0, 0.836);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  line-height: 1.5;
+  opacity: 0;
+  transition: opacity 0.3s ease;
 }
 
-#gitfunded-mobile {
-  width: 10vw;
-  z-index: 2;
-  margin-left: 10px;
+.project-description,
+.project-title {
+  color: #fff;
+  text-align: center;
+  padding: 10px;
 }
 
-#ledgerly-frame {
-  width: 23vw;
-  border-radius: 8px;
+.project-title {
+  font-size: 1.6rem;
 }
 
-#ledgerly-mobile {
-  width: 10vw;
-  z-index: 2;
-  margin-right: 10px;
+.project-title {
+  text-transform: lowercase;
 }
 
-#jobseekr-frame {
-  width: 25vw;
-  border-radius: 8px;
+.project-card:hover .project-image {
+  transform: scale(1.1);
 }
 
-#jobseekr-mobile {
-  width: 10vw;
-  z-index: 2;
-  margin-left: 10px;
+.project-card:hover .project-overlay {
+  opacity: 1;
 }
 
-#npcgen-mobile {
-  width: 10vw;
-  z-index: 2;
-}
-
-#npcgen-frame {
-  margin-left: 10px;
-  width: 30vw;
-  border-radius: 8px;
-}
-
-/* media queries */
-@media only screen and (max-width: 1300px) {
-  .ProjectsPage {
-    gap: 0;
-  }
-
-  .project-element {
-    flex-direction: column;
-  }
-
-  .project-info {
-    width: 80vw;
-  }
-
-  #gitfunded-frame {
-    width: 40vw;
-  }
-
-  #gitfunded-mobile {
-    width: 20vw;
-  }
-
-  #ledgerly-frame {
-    width: 45vw;
-  }
-
-  #ledgerly-mobile {
-    width: 20vw;
-  }
-
-  #jobseekr-frame {
-    width: 48vw;
-  }
-
-  #jobseekr-mobile {
-    width: 20vw;
-  }
-
-  #npcgen-frame {
-    width: 60vw;
-  }
-
-  #npcgen-mobile {
-    width: 20vw;
-  }
+.project-overlay > .icons {
+  font-size: 1.5rem;
+  gap: 1rem;
 }
 
 @media only screen and (max-width: 800px) {
-  .project-info {
-    width: 90vw;
+  .projects-container {
+    width: 95vw;
+    gap: 8px;
   }
 
-  #gitfunded-frame {
-    width: 55vw;
+  .project-card {
+    width: 48%;
+    height: 15rem;
   }
 
-  #gitfunded-mobile,
-  #ledgerly-mobile,
-  #jobseekr-mobile,
-  #npcgen-mobile {
-    width: 25vw;
+  .project-title {
+    font-size: 1rem;
   }
 
-  #ledgerly-frame,
-  #jobseekr-frame,
-  #npcgen-frame {
-    width: 55vw;
+  .project-description {
+    font-size: 0.8rem;
   }
 
-  #npcgen-frame {
-    width: 63vw;
-    margin-left: 5px;
-  }
-}
-
-@media only screen and (max-width: 600px) {
-  /* #ledgerly-laptop {
-    width: 90vw;
-    margin-right: 0px;
+  .project-overlay {
+    padding: 1rem;
   }
 
-  #ledgerly-mobile {
-    width: 18vw;
-    margin-right: -70px;
+  .project-overlay > .icons {
+    font-size: 1.2rem;
   }
-
-  #jobseekr-mobile {
-    width: 18vw;
-    margin-left: -15px;
-  }
-
-  #npcgen-mobile {
-    width: 18vw;
-    margin-right: -70px;
-  } */
 }
