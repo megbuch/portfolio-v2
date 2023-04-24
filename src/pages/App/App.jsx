@@ -1,7 +1,7 @@
 import "./App.css";
 import { Routes, Route } from "react-router-dom";
 import Nav from "../../components/Navigation/Navigation";
-import HeroPage from "../../pages/HeroPage/HeroPage";
+import LandingPage from "../../pages/LandingPage/LandingPage";
 import AboutPage from "../../pages/AboutPage/AboutPage";
 import ProjectsPage from "../../pages/ProjectsPage/ProjectsPage";
 import ContactPage from "../ContactPage/ContactPage";
@@ -12,7 +12,7 @@ function App() {
     <div className="container">
       <Nav />
       <Routes>
-        <Route path="/" element={<HeroPage />} />
+        <Route path="/" element={<LandingPage />} />
         <Route path="/projects" element={<ProjectsPage />} />
         <Route path="/about" element={<AboutPage />} />
         <Route path="/contact" element={<ContactPage />} />

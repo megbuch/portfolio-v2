@@ -11,23 +11,23 @@ library.add(faGithub, faLinkedin, faEnvelope);
 export default function SocialIcons() {
   return (
     <div className="icons">
-      <Link
-        to="mailto: hiremeghanbucher@gmail.com"
+      <a
+        href="mailto: hiremeghanbucher@gmail.com"
         target="_blank"
         rel="noreferrer"
       >
         <FontAwesomeIcon icon={faEnvelope} />
-      </Link>
-      <Link to="https://github.com/megbuch" target="_blank" rel="noreferrer">
+      </a>
+      <a href="https://github.com/megbuch" target="_blank" rel="noreferrer">
         <FontAwesomeIcon icon={faGithub} />
-      </Link>
-      <Link
-        to="https://linkedin.com/in/meghanbucher"
+      </a>
+      <a
+        href="https://linkedin.com/in/meghanbucher"
         target="_blank"
         rel="noreferrer"
       >
         <FontAwesomeIcon icon={faLinkedin} />
-      </Link>
+      </a>
     </div>
   );
 }

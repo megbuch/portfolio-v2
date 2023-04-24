@@ -31,7 +31,7 @@ export default function FeaturedProjects() {
   }, []);
 
   return (
-    <section id="projects" className="ProjectsPage col">
+    <section id="featured-projects" className="FeaturedProjects col">
       <h2>Featured Projects.</h2>
       <div className="project-element row">
         <div className="mockups">

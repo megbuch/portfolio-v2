@@ -1,0 +1,102 @@
+.Hero {
+  min-height: 30vh;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 1rem;
+  background-color: rgb(247, 247, 247);
+  padding: 8rem 0 3rem 0;
+  margin-bottom: -3rem;
+}
+
+.Hero h1 {
+  font-size: 6rem;
+  line-height: 1.3;
+  font-weight: 500;
+  opacity: 0;
+  transform: translateX(-20px);
+  animation: fadeLeft 2s ease-out forwards;
+}
+
+.Hero h2 {
+  font-size: 2rem;
+  font-weight: 400;
+  letter-spacing: -1px;
+  color: rgb(34, 34, 34);
+  opacity: 0;
+  transform: translateX(20px);
+  animation: fadeRight 2s ease-out forwards;
+}
+
+.Hero .row {
+  gap: 0;
+}
+
+.Hero .btn {
+  color: white;
+  margin: 1rem;
+  transform: translateY(20px);
+  opacity: 0;
+  animation: fadeUp 0.9s ease-out forwards;
+}
+
+.Hero .btn-1 {
+  animation-delay: 0.9s;
+}
+
+.Hero .btn-2 {
+  animation-delay: 1.1s;
+}
+
+@keyframes fadeLeft {
+  from {
+    opacity: 0;
+    transform: translateX(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeRight {
+  from {
+    opacity: 0;
+    transform: translateX(-20px);
+    backdrop-filter: blur(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+    backdrop-filter: blur(20px);
+  }
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+/*media queries */
+@media only screen and (max-width: 800px) {
+  .Hero {
+    height: 100vh;
+    padding: 3rem;
+  }
+
+  .Hero h1 {
+    font-size: 3rem;
+  }
+
+  .Hero h2 {
+    font-size: 2rem;
+    line-height: 1.3;
+  }
+}
