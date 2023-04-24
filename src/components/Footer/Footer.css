@@ -1,22 +1,24 @@
 .Footer {
   gap: 0;
-  padding: 1rem;
+  padding: 0.8rem;
   font-size: 12px;
   text-transform: lowercase;
   background-color: #1b1a1a;
-  border-top: 1px solid rgb(37, 37, 37);
-  color: rgb(189, 189, 189);
+  border-top: 1px solid var(--deep-gray);
+  color: #bdbdbd;
 }
 
 .Footer > a {
-  font-size: 18px;
-  color: var(--light-red);
+  font-size: 15px;
+  font-weight: 400;
+  color: #bdbdbd;
 }
 
-.Footer > a:hover {
-  color: var(--bright-red);
+.Footer > a:hover,
+.Footer .icons > a:hover {
+  color: white;
 }
 
 .Footer .icons > a {
-  color: var(--light-red);
+  color: #bdbdbd;
 }

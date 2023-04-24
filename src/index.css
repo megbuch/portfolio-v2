@@ -3,9 +3,12 @@
   --light-red: #fc6f76;
   --bright-red: #e43d45;
   --dark-red: #c21b24;
+  --transparent-red: #e43d4580;
   --transparent-white: #ffffffce;
   --overlay-red: #f8485738;
   --accent-gray-line: #f1efee;
+  --deep-gray: #1b1a1a;
+  --medium-gray: #5f5d5d;
 }
 
 * {
