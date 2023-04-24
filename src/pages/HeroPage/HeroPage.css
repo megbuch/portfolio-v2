@@ -13,6 +13,10 @@
   letter-spacing: -5px;
 }
 
+.text-wrapper {
+  z-index: 0;
+}
+
 .text-wrapper > p {
   font-size: 3rem;
   text-transform: lowercase;

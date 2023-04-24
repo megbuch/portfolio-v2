@@ -51,10 +51,6 @@
   opacity: 30%;
 }
 
-.AboutPage .btn {
-  margin: 1rem 0;
-}
-
 .AboutPage .skills {
   justify-content: center;
 }
@@ -110,10 +106,5 @@
 @media only screen and (max-width: 600px) {
   .text-content {
     width: 90vw;
-  }
-
-  .AboutPage .btn {
-    margin: 0 auto;
-    margin-top: 2rem;
   }
 }

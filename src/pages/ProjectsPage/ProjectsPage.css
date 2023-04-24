@@ -3,6 +3,10 @@
   margin: 2rem 0;
 }
 
+.ProjectsPage h3 {
+  font-size: 2rem;
+}
+
 .hidden {
   opacity: 0;
   transition: all 1s;

@@ -13,8 +13,8 @@ function App() {
       <Nav />
       <Routes>
         <Route path="/" element={<HeroPage />} />
-        <Route path="/about" element={<AboutPage />} />
         <Route path="/projects" element={<ProjectsPage />} />
+        <Route path="/about" element={<AboutPage />} />
         <Route path="/contact" element={<ContactPage />} />
       </Routes>
       <Footer />

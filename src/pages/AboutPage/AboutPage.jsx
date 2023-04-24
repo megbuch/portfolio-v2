@@ -2,7 +2,6 @@ import "./AboutPage.css";
 import headshot from "../../assets/images/headshot.jpg";
 import Skills from "../../components/Skills/Skills";
 import Education from "../../components/Education/Education";
-import resume from "../../assets/documents/resume.pdf";
 
 export default function AboutPage() {
   return (
@@ -26,11 +25,7 @@ export default function AboutPage() {
               </a>
               . 🚀
             </p>
-            <div className="btn">
-              <a href={resume} rel="noreferrer" target="_blank">
-                View resume
-              </a>
-            </div>
+            <br />
           </div>
           <div className="img-container">
             <div className="img-overlay">

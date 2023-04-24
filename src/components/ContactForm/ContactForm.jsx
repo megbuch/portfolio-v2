@@ -63,7 +63,7 @@ export default function ContactForm() {
         <label>Subject *</label>
         <input required type="text" name="user_subject" />
         <label>Message *</label>
-        <textarea required rows="4" name="user_message" />
+        <textarea required rows="3" name="user_message" />
         <ReCAPTCHA
           className="recaptcha"
           sitekey={process.env.REACT_APP_RECAPTCHA_SITE_KEY}

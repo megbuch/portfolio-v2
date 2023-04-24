@@ -17,6 +17,8 @@ export default function ProjectsPage() {
       entries.forEach((entry) => {
         if (entry.isIntersecting) {
           entry.target.classList.add("show");
+        } else {
+          entry.target.classList.remove("show");
         }
       });
     });
@@ -29,7 +31,7 @@ export default function ProjectsPage() {
   }, []);
 
   return (
-    <section className="ProjectsPage col">
+    <section id="projects" className="ProjectsPage col">
       <h2>Featured Projects.</h2>
       <div className="project-element row">
         <div className="mockups">
@@ -65,11 +67,6 @@ export default function ProjectsPage() {
             Discover and support charitable causes with GitFunded. Create,
             customize, and manage your campaigns. Make donations to the ones
             that inspire you.
-          </p>
-          <p>
-            GitFunded is a full-stack GoFundMe clone in which users can create,
-            manage, and "donate" to fundraising campaigns. Demonstration
-            credentials are available upon request.
           </p>
           <div className="skills">
             <div className="skill language">
@@ -152,11 +149,6 @@ export default function ProjectsPage() {
             comprehensive solution to manage business income and expenses. Users
             can manage their income and expense data, filter these transactions
             by category and/or date range, and generate financial reports.
-          </p>
-          <p>
-            Ledgerly Accounting is a MERN-stack CRUD application complete with
-            token-based user authentication. Demonstration credentials are
-            available upon request.
           </p>
           <div className="skills">
             <div className="skill language">
@@ -247,10 +239,6 @@ export default function ProjectsPage() {
             status updates, dates, notes, and tasks while navigating a beautiful
             and responsive interface.
           </p>
-          <p>
-            jobSeekr is a MEN-stack CRUD application complete with Google OAuth
-            2.0 user authentication.
-          </p>
           <div className="skills">
             <div className="skill language">
               <p>JavaScript</p>
@@ -333,15 +321,11 @@ export default function ProjectsPage() {
             </a>
           </h3>
           <p>
-            Create characters on the fly, generating randomized demographic
-            information, appearance descriptions, ability scores, personality
-            traits, plot hooks, alignments, and corresponding beliefs — all at
-            the push of a button.
-          </p>
-          <p>
-            NPC Generator was designed to enhance the player and dungeon master
-            experience for the table-top roleplaying game, Dungeons and Dragons.
-            All descriptions are custom and have been carefully curated.
+            Want to play Dungeons & Dragons, but not sure where to start? Let
+            NPC Generator inspire you. Create characters on the fly, generating
+            randomized demographic information, appearance descriptions, ability
+            scores, personality traits, plot hooks, alignments, and
+            corresponding beliefs — all at the push of a button.
           </p>
           <div className="skills">
             <div className="skill language">

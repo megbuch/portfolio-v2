@@ -7,9 +7,7 @@ export default function ProjectsPage() {
     <section className="ContactPage">
       <h2>Contact.</h2>
       <p>
-        Send hello & connect with me —
-        <br />
-        I'm currently seeking new opportunities!
+        Send hello & connect with me!
         <br />
         <b>hiremeghanbucher@gmail.com</b>
       </p>
