@@ -48,46 +48,46 @@
 
 #gitfunded-frame {
   width: 22vw;
-  margin-top: -30px;
+  border-radius: 8px;
 }
 
 #gitfunded-mobile {
   width: 10vw;
-  margin-left: -10px;
-  z-index: 1;
+  z-index: 2;
+  margin-left: 10px;
 }
 
-#ledgerly-laptop {
-  width: 44vw;
+#ledgerly-frame {
+  width: 23vw;
+  border-radius: 8px;
 }
 
 #ledgerly-mobile {
   width: 10vw;
-  margin-top: -40px;
-  margin-right: -120px;
-  z-index: 1;
+  z-index: 2;
+  margin-right: 10px;
+}
+
+#jobseekr-frame {
+  width: 25vw;
+  border-radius: 8px;
 }
 
 #jobseekr-mobile {
   width: 10vw;
-  z-index: 1;
+  z-index: 2;
   margin-left: 10px;
-}
-
-#jobseekr-tablet {
-  width: 30vw;
 }
 
 #npcgen-mobile {
   width: 10vw;
-  margin-right: -120px;
-  margin-top: -20px;
   z-index: 2;
 }
 
-#npcgen-laptop {
-  width: 42vw;
-  margin-right: -80px;
+#npcgen-frame {
+  margin-left: 10px;
+  width: 30vw;
+  border-radius: 8px;
 }
 
 /* media queries */
@@ -105,83 +105,68 @@
   }
 
   #gitfunded-frame {
-    width: 35vw;
+    width: 40vw;
   }
 
   #gitfunded-mobile {
-    width: 18vw;
+    width: 20vw;
   }
 
-  #ledgerly-laptop {
-    width: 68vw;
+  #ledgerly-frame {
+    width: 45vw;
   }
 
   #ledgerly-mobile {
-    width: 15vw;
+    width: 20vw;
+  }
+
+  #jobseekr-frame {
+    width: 48vw;
   }
 
   #jobseekr-mobile {
-    width: 16vw;
-    margin-right: -20px;
+    width: 20vw;
   }
 
-  #jobseekr-tablet {
-    width: 50vw;
+  #npcgen-frame {
+    width: 60vw;
   }
 
   #npcgen-mobile {
-    width: 16vw;
-  }
-
-  #npcgen-laptop {
-    width: 70vw;
+    width: 20vw;
   }
 }
 
 @media only screen and (max-width: 800px) {
   .project-info {
-    width: 95vw;
+    width: 90vw;
   }
 
   #gitfunded-frame {
-    width: 60vw;
+    width: 55vw;
   }
 
-  #gitfunded-mobile {
-    width: 30vw;
-    margin-left: -30px;
-  }
-
-  #ledgerly-laptop {
-    width: 90vw;
-    margin-right: 15px;
-  }
-
-  #ledgerly-mobile {
-    width: 18vw;
-  }
-
-  #jobseekr-mobile {
-    width: 18vw;
-    margin-right: 20px;
-  }
-
-  #jobseekr-tablet {
-    width: 70vw;
-  }
-
+  #gitfunded-mobile,
+  #ledgerly-mobile,
+  #jobseekr-mobile,
   #npcgen-mobile {
-    width: 18vw;
+    width: 25vw;
   }
 
-  #npcgen-laptop {
-    width: 90vw;
-    margin-right: 20px;
+  #ledgerly-frame,
+  #jobseekr-frame,
+  #npcgen-frame {
+    width: 55vw;
+  }
+
+  #npcgen-frame {
+    width: 63vw;
+    margin-left: 5px;
   }
 }
 
 @media only screen and (max-width: 600px) {
-  #ledgerly-laptop {
+  /* #ledgerly-laptop {
     width: 90vw;
     margin-right: 0px;
   }
@@ -196,17 +181,8 @@
     margin-left: -15px;
   }
 
-  #jobseekr-tablet {
-    width: 68vw;
-  }
-
   #npcgen-mobile {
     width: 18vw;
     margin-right: -70px;
-  }
-
-  #npcgen-laptop {
-    width: 90vw;
-    margin-right: 10px;
-  }
+  } */
 }

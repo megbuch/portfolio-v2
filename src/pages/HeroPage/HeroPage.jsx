@@ -1,53 +1,40 @@
 import "./HeroPage.css";
-import { useEffect } from "react";
 import { Link } from "react-router-dom";
-import gsap from "gsap";
-import SplitTextJS from "split-text-js";
 import image from "../../assets/images/woman-with-tablet.png";
+import { library } from "@fortawesome/fontawesome-svg-core";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
+
+library.add(faArrowRight);
 
 export default function Hero() {
-  useEffect(() => {
-    const titles = gsap.utils.toArray(".text-wrapper > p");
-    const tl = gsap.timeline();
-
-    titles.forEach((title) => {
-      const splitTitle = new SplitTextJS(title);
-      tl.from(
-        splitTitle.chars,
-        { opacity: 0, y: 40, rotateX: -60, stagger: 0.01, duration: 3 },
-        "<"
-      ).to(
-        splitTitle.chars,
-        {
-          opacity: 0,
-          y: -40,
-          rotateX: 60,
-          stagger: 0.02,
-          duration: 2,
-        },
-        "<1"
-      );
-    });
-    tl.repeat(-1);
-    tl.play();
-  }, []);
-
   return (
     <>
       <section className="HeroPage row">
         <div>
           <h1>Meghan Bucher</h1>
-          <div className="text-container">
-            <div className="text-wrapper">
-              <p>I'm a Software Engineer.</p>
-              <p>Full Stack Developer.</p>
-              <p>Front End Wizard.</p>
-              <p className="accent">Creative.</p>
-            </div>
-            <div className="btn">
-              <Link to="/projects">Explore my work</Link>
-            </div>
-          </div>
+
+          <Link to="/projects">
+            <h3>
+              <span>E</span>
+              <span>x</span>
+              <span>p</span>
+              <span>l</span>
+              <span>o</span>
+              <span>r</span>
+              <span>e</span>&nbsp;
+              <span>m</span>
+              <span>y</span>&nbsp;
+              <span>w</span>
+              <span>o</span>
+              <span>r</span>
+              <span>k</span>
+              <span className="icon">
+                &nbsp;&nbsp;&nbsp;
+                <FontAwesomeIcon icon={faArrowRight} />
+              </span>
+            </h3>
+          </Link>
         </div>
         <img alt="woman holding tablet" src={image}></img>
       </section>

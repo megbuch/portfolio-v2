@@ -2,11 +2,11 @@ import "./ProjectsPage.css";
 import { useRef, useEffect } from "react";
 import gitfundedFrame from "../../assets/mockups/gitfunded/gitfunded_frame.png";
 import gitfundedMobile from "../../assets/mockups/gitfunded/gitfunded_mobile.png";
-import ledgerlyLaptop from "../../assets/mockups/ledgerly/ledgerly_laptop.png";
+import ledgerlyFrame from "../../assets/mockups/ledgerly/ledgerly_frame.png";
 import ledgerlyMobile from "../../assets/mockups/ledgerly/ledgerly_mobile.png";
-import jobseekrTablet from "../../assets/mockups/jobseekr/jobseekr_tablet.png";
+import jobseekrFrame from "../../assets/mockups/jobseekr/jobseekr_frame.png";
 import jobseekrMobile from "../../assets/mockups/jobseekr/jobseekr_mobile.png";
-import npcgenLaptop from "../../assets/mockups/npcgen/npcgen_laptop.png";
+import npcgenFrame from "../../assets/mockups/npcgen/npcgen_frame.png";
 import npcgenMobile from "../../assets/mockups/npcgen/npcgen_mobile.png";
 
 export default function ProjectsPage() {
@@ -124,10 +124,10 @@ export default function ProjectsPage() {
             ref={(el) => (hiddenElsRef.current[3] = el)}
           />
           <img
-            id="ledgerly-laptop"
+            id="ledgerly-frame"
             alt="ledgerly mockup"
             className="mockup hidden"
-            src={ledgerlyLaptop}
+            src={ledgerlyFrame}
             ref={(el) => (hiddenElsRef.current[4] = el)}
           />
         </div>
@@ -205,10 +205,10 @@ export default function ProjectsPage() {
       <div className="project-element row">
         <div className="mockups">
           <img
-            id="jobseekr-tablet"
+            id="jobseekr-frame"
             alt="jobseekr mockup"
             className="mockup hidden"
-            src={jobseekrTablet}
+            src={jobseekrFrame}
             ref={(el) => (hiddenElsRef.current[6] = el)}
           />
           <img
@@ -304,10 +304,10 @@ export default function ProjectsPage() {
             ref={(el) => (hiddenElsRef.current[9] = el)}
           />
           <img
-            id="npcgen-laptop"
+            id="npcgen-frame"
             alt="npcgen mockup"
             className="mockup hidden"
-            src={npcgenLaptop}
+            src={npcgenFrame}
             ref={(el) => (hiddenElsRef.current[10] = el)}
           />
         </div>
@@ -321,11 +321,10 @@ export default function ProjectsPage() {
             </a>
           </h3>
           <p>
-            Want to play Dungeons & Dragons, but not sure where to start? Let
-            NPC Generator inspire you. Create characters on the fly, generating
-            randomized demographic information, appearance descriptions, ability
-            scores, personality traits, plot hooks, alignments, and
-            corresponding beliefs — all at the push of a button.
+            Let NPC Generator inspire you. Create characters on the fly,
+            generating randomized demographic information, appearance
+            descriptions, ability scores, personality traits, plot hooks,
+            alignments, and corresponding beliefs — all at the push of a button.
           </p>
           <div className="skills">
             <div className="skill language">
