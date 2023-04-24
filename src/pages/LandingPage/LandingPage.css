@@ -11,7 +11,7 @@
 }
 
 .Hero h1 {
-  font-size: 6rem;
+  font-size: 5rem;
   line-height: 1.3;
   font-weight: 500;
   opacity: 0;
@@ -88,11 +88,12 @@
 @media only screen and (max-width: 800px) {
   .Hero {
     height: 100vh;
-    padding: 3rem;
+    padding: 1rem;
   }
 
   .Hero h1 {
     font-size: 3rem;
+    letter-spacing: -2px;
   }
 
   .Hero h2 {
