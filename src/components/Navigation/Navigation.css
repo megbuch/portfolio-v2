@@ -24,7 +24,7 @@
   top: 20px;
   right: 30px;
   position: fixed;
-  z-index: 5;
+  z-index: 10;
 }
 
 .mobile-links {
@@ -35,25 +35,25 @@
   gap: 0rem;
   font-size: 2rem;
   background-color: var(--transparent-white);
-  height: 50vh;
+  height: 100vh;
   width: 100vw;
   position: fixed;
   top: 0;
   right: 0;
   z-index: 4;
-  backdrop-filter: blur(5px);
-  transform: translateY(-100%);
+  backdrop-filter: blur(10px);
+  transform: translateX(100%);
   transition: transform 0.5s ease-in-out;
 }
 
 .mobile-link a {
   color: var(--bright-red);
-  font-weight: 600;
+  font-weight: 400;
   text-decoration: none;
 }
 
 .open {
-  transform: translateY(0);
+  transform: translateX(0);
 }
 
 @media (max-width: 800px) {

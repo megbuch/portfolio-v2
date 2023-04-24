@@ -32,3 +32,110 @@
 .HeroPage .btn {
   margin: 3.5rem 0;
 }
+
+@media only screen and (max-width: 1250px) {
+  .HeroPage h1 {
+    font-size: 5rem;
+  }
+
+  .text-wrapper > p {
+    font-size: 2rem;
+    line-height: 0.2;
+    line-height: 0.5;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .HeroPage h1 {
+    font-size: 6rem;
+  }
+
+  .text-wrapper > p {
+    font-size: 3rem;
+  }
+
+  .HeroPage {
+    flex-direction: column;
+  }
+
+  .HeroPage > img {
+    position: absolute;
+    bottom: 6rem;
+    right: 6rem;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .HeroPage h1 {
+    font-size: 5.5rem;
+  }
+
+  .text-wrapper > p {
+    font-size: 2.5rem;
+  }
+
+  .HeroPage > img {
+    width: 30vw;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .HeroPage h1 {
+    font-size: 5rem;
+  }
+
+  .text-wrapper > p {
+    font-size: 2rem;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .HeroPage h1 {
+    font-size: 3.5rem;
+  }
+
+  .text-container {
+    margin: 1rem 0;
+  }
+
+  .text-wrapper > p {
+    font-size: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .HeroPage h1 {
+    font-size: 3.5rem;
+  }
+
+  .text-container {
+    margin: 2rem 0;
+  }
+
+  .text-wrapper > p {
+    font-size: 1.5rem;
+    line-height: 0;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .HeroPage h1 {
+    font-size: 3rem;
+  }
+
+  .text-container {
+    margin: 1.6rem 0;
+  }
+
+  .text-wrapper > p {
+    font-size: 1.4rem;
+    line-height: 0;
+  }
+
+  .HeroPage > img {
+    position: absolute;
+    width: 130px;
+    bottom: 5rem;
+    right: 3rem;
+  }
+}
