@@ -45,7 +45,7 @@ label {
 input[type="submit"] {
   background-color: var(--light-red);
   border: 1px solid #ff5959;
-  padding: 15px;
+  padding: 1.5rem;
   font: 18px "Mulish", Helvetica, Arial, sans-serif;
   font-weight: 500;
   text-transform: lowercase;
@@ -70,6 +70,8 @@ input[type="submit"]:hover {
 
 @media only screen and (max-width: 450px) {
   form {
-    width: 95vw;
+    width: 100vw;
+    height: 100%;
+    border-radius: 0;
   }
 }

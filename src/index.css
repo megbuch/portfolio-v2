@@ -21,6 +21,7 @@
 html {
   scroll-behavior: smooth;
   height: 100%;
+  max-width: 100vw;
 }
 
 body {
@@ -124,6 +125,22 @@ h2 {
   text-transform: lowercase;
   font-weight: 300;
   letter-spacing: 1px;
+}
+
+::-webkit-scrollbar {
+  width: 3px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(172, 172, 172);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--bright-red);
 }
 
 /* media queries */
