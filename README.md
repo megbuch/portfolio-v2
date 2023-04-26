@@ -9,7 +9,6 @@ For the most part, it retains many of the same features of v1, but I've added a 
 
 <ul>
   <li>Built with React</li>
-  <li>Animated text using GSAP</li>
   <li>Google reCAPTCHA 2</li>
   <li>Toastify for notifications</li>
 </ul>
