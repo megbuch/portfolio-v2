@@ -20,7 +20,6 @@ const skills = [
   { id: 20, skill: "Airtable", type: "other" },
   { id: 21, skill: "MVC Architecture", type: "other" },
   { id: 22, skill: "RESTful APIs", type: "other" },
-  { id: 23, skill: "Airtable", type: "other" },
   { id: 24, skill: "Figma", type: "design" },
   { id: 25, skill: "Adobe Suite", type: "design" },
   { id: 26, skill: "Adobe Photoshop", type: "design" },
