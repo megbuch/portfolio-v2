@@ -5,13 +5,14 @@ import npcgenFrame from "../assets/mockups/npcgen/npcgen_frame.png";
 import simonsaysFrame from "../assets/mockups/simonsays/simonsays_frame.png";
 import portfolioV1Frame from "../assets/mockups/portfolio_v1/portfolio_v1_frame.png";
 import portfolioV2Frame from "../assets/mockups/portfolio_v2/portfolio_v2_frame.png";
+import spacelabFrame from "../assets/mockups/spacelab/spacelab_frame.png";
 
 const projects = [
   {
     id: 1,
     title: "GitFunded",
     mockup: gitfundedFrame,
-    description: "Python, Django, PostgreSQL",
+    description: "Python, Django, PostgreSQL, HTML5, CSS3",
     repoLink: "https://github.com/megbuch/GitFunded",
     liveLink: "https://gitfunded.herokuapp.com/",
     titleGitHub: "GitFunded GitHub Link",
@@ -23,7 +24,7 @@ const projects = [
     id: 2,
     title: "Ledgerly Accounting",
     mockup: ledgerlyFrame,
-    description: "JavaScript, React, Express, Node.js, MongoDB",
+    description: "JavaScript, React, Express, Node.js, MongoDB, HTML5, CSS3",
     repoLink: "https://github.com/megbuch/ledgerly",
     liveLink: "https://ledgerly-accounting.herokuapp.com/",
     titleGitHub: "Ledgerly GitHub Link",
@@ -35,7 +36,7 @@ const projects = [
     id: 3,
     title: "jobSeekr",
     mockup: jobseekrFrame,
-    description: "JavaScript, Express, Node.js, MongoDB",
+    description: "JavaScript, Express, Node.js, MongoDB, HTML5, CSS3",
     repoLink: "https://github.com/megbuch/job-seekr-app",
     liveLink: "https://job-seekr.herokuapp.com/",
     titleGitHub: "jobSeekr GitHub Link",
@@ -47,7 +48,7 @@ const projects = [
     id: 4,
     title: "NPC Generator",
     mockup: npcgenFrame,
-    description: "Vanilla JavaScript",
+    description: "JavaScript, HTML5, CSS3",
     repoLink: "https://github.com/megbuch/npc-generator",
     liveLink: "https://npcgen.com/",
     titleGitHub: "NPC Generator GitHub Link",
@@ -59,7 +60,7 @@ const projects = [
     id: 5,
     title: "Simon Says",
     mockup: simonsaysFrame,
-    description: "Vanilla JavaScript",
+    description: "JavaScript, HTML5, CSS3",
     repoLink: "https://github.com/megbuch/simon-says-game",
     liveLink: "https://simonsays-mb.netlify.app/",
     titleGitHub: "Simon Says GitHub Link",
@@ -71,7 +72,7 @@ const projects = [
     id: 6,
     title: "Portfolio v1",
     mockup: portfolioV1Frame,
-    description: "Vanilla JavaScript",
+    description: "JavaScript, HTML5, CSS3",
     repoLink: "https://github.com/megbuch/portfolio",
     liveLink: "https://meghanbucher-v1.netlify.app/",
     titleGitHub: "Portfolio V1 GitHub Link",
@@ -83,13 +84,25 @@ const projects = [
     id: 7,
     title: "Portfolio v2",
     mockup: portfolioV2Frame,
-    description: "JavaScript, React",
+    description: "JavaScript, React, HTML5, CSS3",
     repoLink: "https://github.com/megbuch/portfolio-v2",
     liveLink: "https://meghanbucher.work",
     titleGitHub: "Portfolio V2 GitHub Link",
     ariaLabelGitHub: "Portfolio V2 GitHub Link",
     titleLive: "Portfolio V2 Live Link",
     ariaLabelLive: "Portfolio V2 Live Link",
+  },
+  {
+    id: 7,
+    title: "SpaceLab",
+    mockup: spacelabFrame,
+    description: "JavaScript, React, HTML5, SCSS",
+    repoLink: "https://github.com/spacelabdev/spacelab-react",
+    liveLink: "https://spacelab.space",
+    titleGitHub: "SpaceLab GitHub Link",
+    ariaLabelGitHub: "SpaceLab GitHub Link",
+    titleLive: "SpaceLab Live Link",
+    ariaLabelLive: "SpaceLab Live Link",
   },
 ];
 
