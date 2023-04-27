@@ -1,12 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900");
 @import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700&display=swap");
 :root {
-  --light-red: #f51f5f;
-  --bright-red: #df0647;
-  --dark-red: #b40137;
+  --light-red: #cc619c;
+  --bright-red: #a73774;
+  --dark-red: #881454;
   --transparent-red: #e43d4580;
   --transparent-white: #ffffffce;
-  --overlay-red: #f8485738;
   --accent-gray-line: #f1efee;
   --deep-gray: #333131;
   --medium-gray: #5f5d5d;

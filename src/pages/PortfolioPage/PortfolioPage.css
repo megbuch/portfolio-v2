@@ -72,10 +72,11 @@
 .portfolio-buttons {
   display: flex;
   gap: 1rem;
+  margin: 2rem auto;
 }
 
 .portfolio-buttons .btn {
-  width: 5rem;
+  width: 6rem;
 }
 
 .active {
