@@ -40,7 +40,7 @@ export default function Nav() {
           <Link to="/">Home</Link>
         </li>
         <li className="navbar-link">
-          <Link to="/projects">Projects</Link>
+          <Link to="/portfolio">Portfolio</Link>
         </li>
         <li className="navbar-link">
           <Link to="/about">About</Link>
@@ -73,8 +73,8 @@ export default function Nav() {
           </Link>
         </li>
         <li className="mobile-link">
-          <Link to="/projects" onClick={handleMobileMenuClick}>
-            Projects
+          <Link to="/portfolio" onClick={handleMobileMenuClick}>
+            Portfolio
           </Link>
         </li>
         <li className="mobile-link">

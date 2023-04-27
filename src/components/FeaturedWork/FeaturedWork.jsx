@@ -1,4 +1,4 @@
-import "./FeaturedProjects.css";
+import "./FeaturedWork.css";
 import { useRef, useEffect } from "react";
 import gitfundedFrame from "../../assets/mockups/gitfunded/gitfunded_frame.png";
 import gitfundedMobile from "../../assets/mockups/gitfunded/gitfunded_mobile.png";
@@ -9,7 +9,7 @@ import jobseekrMobile from "../../assets/mockups/jobseekr/jobseekr_mobile.png";
 import npcgenFrame from "../../assets/mockups/npcgen/npcgen_frame.png";
 import npcgenMobile from "../../assets/mockups/npcgen/npcgen_mobile.png";
 
-export default function FeaturedProjects() {
+export default function FeaturedWork() {
   const hiddenElsRef = useRef([]);
 
   useEffect(() => {
@@ -31,8 +31,8 @@ export default function FeaturedProjects() {
   }, []);
 
   return (
-    <section id="featured-projects" className="FeaturedProjects col">
-      <h2>Featured Projects.</h2>
+    <section id="featured-work" className="FeaturedWork col">
+      <h2>Featured Work.</h2>
       <div className="project-element row">
         <div className="mockups">
           <img

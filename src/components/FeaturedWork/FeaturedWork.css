@@ -1,9 +1,9 @@
-.FeaturedProjects .skills {
+.FeaturedWork .skills {
   justify-content: left;
   margin: 2rem 0;
 }
 
-.FeaturedProjects h3 {
+.FeaturedWork h3 {
   font-size: 2rem;
 }
 
@@ -92,7 +92,7 @@
 
 /* media queries */
 @media only screen and (max-width: 1300px) {
-  .FeaturedProjects > .project-element {
+  .FeaturedWork > .project-element {
     flex-direction: column;
   }
 

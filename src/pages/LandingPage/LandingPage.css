@@ -49,6 +49,12 @@
   animation-delay: 1.1s;
 }
 
+.btn-3 {
+  color: white;
+  margin: 0 auto 4rem;
+  width: 12rem;
+}
+
 @keyframes fadeLeft {
   from {
     opacity: 0;

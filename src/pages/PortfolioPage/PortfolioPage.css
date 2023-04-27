@@ -1,4 +1,4 @@
-.projects-container {
+.portfolio-container {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -7,7 +7,7 @@
   gap: 16px;
 }
 
-.project-card {
+.portfolio-card {
   width: 22rem;
   height: 20rem;
   border-radius: 8px;
@@ -70,12 +70,12 @@
 }
 
 @media only screen and (max-width: 800px) {
-  .projects-container {
+  .portfolio-container {
     width: 95vw;
     gap: 8px;
   }
 
-  .project-card {
+  .portfolio-card {
     width: 48%;
     height: 15rem;
   }

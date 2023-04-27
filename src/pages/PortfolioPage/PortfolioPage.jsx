@@ -1,4 +1,4 @@
-import "./ProjectsPage.css";
+import "./PortfolioPage.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { faLink } from "@fortawesome/free-solid-svg-icons";
@@ -7,13 +7,13 @@ import projects from "../../data/projects";
 
 library.add(faLink, faGithub);
 
-export default function ProjectsPage() {
+export default function PortfolioPage() {
   return (
     <section>
-      <h2>Projects.</h2>
-      <div className="projects-container">
+      <h2>Portfolio.</h2>
+      <div className="portfolio-container">
         {projects.map((project) => (
-          <div className="project-card" key={project.id}>
+          <div className="portfolio-card" key={project.id}>
             <div
               className="project-image"
               style={{ backgroundImage: `url(${project.mockup})` }}
