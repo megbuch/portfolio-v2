@@ -49,7 +49,13 @@ export default function Nav() {
           <Link to="/contact">Contact</Link>
         </li>
         <li className="navbar-link">
-          <a href={resume} rel="noreferrer" target="_blank">
+          <a
+            href={resume}
+            rel="noreferrer"
+            target="_blank"
+            title="View my Resume"
+            aria-label="View my Resume"
+          >
             Resume
           </a>
         </li>

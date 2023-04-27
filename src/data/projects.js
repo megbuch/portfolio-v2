@@ -56,7 +56,7 @@ const projects = [
     ariaLabelLive: "NPC Generator Live Link",
   },
   {
-    id: 4,
+    id: 5,
     title: "Simon Says",
     mockup: simonsaysFrame,
     description: "Vanilla JavaScript",
@@ -68,7 +68,7 @@ const projects = [
     ariaLabelLive: "Simon Says Live Link",
   },
   {
-    id: 5,
+    id: 6,
     title: "Portfolio v1",
     mockup: portfolioV1Frame,
     description: "Vanilla JavaScript",
@@ -80,7 +80,7 @@ const projects = [
     ariaLabelLive: "Portfolio V1 Live Link",
   },
   {
-    id: 6,
+    id: 7,
     title: "Portfolio v2",
     mockup: portfolioV2Frame,
     description: "JavaScript, React",

@@ -1,11 +1,16 @@
 .Footer {
-  gap: 0;
-  padding: 0.8rem;
-  font-size: 12px;
+  height: 18rem;
+  padding: 2rem 0 6rem 0;
+  font-size: 1rem;
   text-transform: lowercase;
   background-color: #1b1a1a;
   border-top: 1px solid var(--deep-gray);
   color: #bdbdbd;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 3rem;
+  position: relative;
 }
 
 .Footer > a {
@@ -19,6 +24,26 @@
   color: white;
 }
 
-.Footer .icons > a {
+.Footer .icons > a,
+.Footer a:hover {
   color: #bdbdbd;
+}
+
+.social {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+}
+
+.copyright {
+  font-size: 12px;
+  position: absolute;
+  bottom: 25px;
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  align-items: right;
 }

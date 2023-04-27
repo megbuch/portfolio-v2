@@ -14,8 +14,8 @@ export default function SocialIcons() {
         href="mailto: hiremeghanbucher@gmail.com"
         target="_blank"
         rel="noreferrer"
-        title="Send me an Email"
-        aria-label="Send me an Email"
+        title="Send Me an Email"
+        aria-label="Send Me an Email"
       >
         <FontAwesomeIcon icon={faEnvelope} />
       </a>
@@ -23,8 +23,8 @@ export default function SocialIcons() {
         href="https://github.com/megbuch"
         target="_blank"
         rel="noreferrer"
-        title="Visit my GitHub"
-        aria-label="Visit my GitHub"
+        title="Visit My GitHub"
+        aria-label="Visit My GitHub"
       >
         <FontAwesomeIcon icon={faGithub} />
       </a>
@@ -32,8 +32,8 @@ export default function SocialIcons() {
         href="https://linkedin.com/in/meghanbucher"
         target="_blank"
         rel="noreferrer"
-        title="Visit my LinkedIn"
-        aria-label="Visit my LinkedIn"
+        title="Visit My LinkedIn"
+        aria-label="Visit My LinkedIn"
       >
         <FontAwesomeIcon icon={faLinkedin} />
       </a>

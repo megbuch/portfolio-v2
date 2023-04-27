@@ -10,7 +10,12 @@ export default function LandingPage() {
         <h1>Meghan Bucher</h1>
         <h2>software engineer & full stack developer</h2>
         <div className="row">
-          <a href="#featured-work" className="btn btn-1">
+          <a
+            href="#featured-work"
+            className="btn btn-1"
+            title="Featured Work"
+            aria-label="Featured Work"
+          >
             Featured
           </a>
           <a
@@ -18,13 +23,14 @@ export default function LandingPage() {
             rel="noreferrer"
             target="_blank"
             className="btn btn-2"
+            title="View My Resume"
+            aria-label="View My Resume"
           >
             Resume
           </a>
         </div>
       </section>
       <FeaturedProjects />
-
       <Link className="btn btn-3" to="/portfolio">
         See More
       </Link>
