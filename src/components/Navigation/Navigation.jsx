@@ -1,14 +1,14 @@
 import React, { useEffect, useState } from "react";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faSun } from "@fortawesome/free-solid-svg-icons";
+import { faLightbulb } from "@fortawesome/free-solid-svg-icons";
 import { faMoon } from "@fortawesome/free-solid-svg-icons";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import resume from "../../assets/documents/resume.pdf";
 import "./Navigation.css";
 
-library.add(faSun, faMoon);
+library.add(faLightbulb, faMoon);
 
 export default function Nav({ toggleTheme, theme }) {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -65,11 +65,9 @@ export default function Nav({ toggleTheme, theme }) {
             Resume
           </a>
         </li>
-        <div className="toggle-theme-container">
-          <button className="toggle-button" onClick={toggleTheme}>
-            <FontAwesomeIcon icon={theme === "" ? faSun : faMoon} />
-          </button>
-        </div>
+        <button className="toggle-button" onClick={toggleTheme}>
+          <FontAwesomeIcon icon={theme === "" ? faMoon : faLightbulb} />
+        </button>
       </ul>
       <div className="hamburger-ctr" onClick={handleHamburgerClick}>
         {isMobileMenuOpen ? (
@@ -79,6 +77,11 @@ export default function Nav({ toggleTheme, theme }) {
         )}
       </div>
       <ul className={isMobileMenuOpen ? "mobile-links open" : "mobile-links"}>
+        <li>
+          <button className="toggle-button" onClick={toggleTheme}>
+            <FontAwesomeIcon icon={theme === "" ? faMoon : faLightbulb} />
+          </button>
+        </li>
         <li className="mobile-link">
           <Link to="/" onClick={handleMobileMenuClick}>
             Home
