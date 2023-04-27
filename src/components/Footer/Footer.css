@@ -13,19 +13,18 @@
   position: relative;
 }
 
-.Footer > a {
-  font-size: 15px;
+.Footer a {
+  font-size: 18px;
   font-weight: 400;
   color: #bdbdbd;
 }
 
-.Footer > a:hover,
+.Footer a:hover,
 .Footer .icons > a:hover {
   color: white;
 }
 
-.Footer .icons > a,
-.Footer a:hover {
+.Footer a {
   color: #bdbdbd;
 }
 
