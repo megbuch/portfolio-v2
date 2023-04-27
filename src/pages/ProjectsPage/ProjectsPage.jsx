@@ -36,8 +36,8 @@ export default function ProjectsPage() {
       title: "jobSeekr",
       mockup: jobseekrFrame,
       description: "JavaScript, Express, Node.js, MongoDB",
-      repoLink: "https://github.com/megbuch/npc-generator",
-      liveLink: "https://npcgen.com/",
+      repoLink: "https://github.com/megbuch/job-seekr-app",
+      liveLink: "https://job-seekr.herokuapp.com/",
     },
     {
       id: 4,
