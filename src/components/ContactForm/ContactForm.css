@@ -43,8 +43,8 @@ label {
 }
 
 input[type="submit"] {
-  background-color: var(--bright-red);
-  border: 1px solid #ff5959;
+  background-color: var(--bright-main);
+  border: 1px solid var(--light-main);
   padding: 1.5rem;
   font: 18px "Mulish", Helvetica, Arial, sans-serif;
   font-weight: 500;
@@ -54,7 +54,7 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-  background-color: var(--dark-red);
+  background-color: var(--dark-main);
   cursor: pointer;
 }
 

@@ -1,10 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900");
 @import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700&display=swap");
 :root {
-  --light-red: #cc619c;
-  --bright-red: #a73774;
-  --dark-red: #881454;
-  --transparent-red: #e43d4580;
+  --light-main: #cc619c;
+  --bright-main: #a73774;
+  --dark-main: #af0562;
   --transparent-white: #ffffffce;
   --accent-gray-line: #f1efee;
   --deep-gray: #333131;
@@ -27,8 +26,8 @@ body {
   font: 16px "Mulish", Helvetica, Arial, sans-serif;
   font-weight: 500;
   line-height: 2.2;
-  background: var(--white);
-  color: var(--black);
+  background: white;
+  color: black;
   position: relative;
   height: 100%;
 }
@@ -38,7 +37,7 @@ ul {
 }
 
 a {
-  color: var(--bright-red);
+  color: var(--bright-main);
   text-decoration: none;
   text-transform: lowercase;
   font-weight: 600;
@@ -58,7 +57,7 @@ section {
 }
 
 h1 {
-  color: var(--bright-red);
+  color: var(--bright-main);
 }
 
 h2 {
@@ -105,7 +104,7 @@ h2 {
   align-items: center;
   height: 3.5rem;
   width: 8rem;
-  background-color: var(--bright-red);
+  background-color: var(--bright-main);
   border-radius: 5px;
   transition: 100ms ease-in-out;
   position: relative;
@@ -116,20 +115,21 @@ h2 {
 }
 
 .btn:hover {
-  background-color: var(--dark-red);
+  background-color: var(--dark-main);
   cursor: pointer;
   top: -2px;
+  color: white;
 }
 
 .btn > a {
-  color: white;
+  /* color: white; */
   text-transform: lowercase;
   font-weight: 300;
   letter-spacing: 1px;
 }
 
 ::-webkit-scrollbar {
-  width: 3px;
+  width: 4px;
 }
 
 ::-webkit-scrollbar-track {
@@ -137,11 +137,12 @@ h2 {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: rgb(172, 172, 172);
+  background: var(--light-main);
+  border-radius: 3px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: var(--bright-red);
+  background: var(--bright-main);
 }
 
 /* media queries */

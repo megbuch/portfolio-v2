@@ -8,8 +8,12 @@
 }
 
 .FeaturedWork h3 > a {
-  color: black;
-  font-weight: 300;
+  color: var(--light-main);
+  font-weight: 500;
+}
+
+.FeaturedWork h3 > a:hover {
+  color: var(--bright-main);
 }
 
 .hidden {

@@ -29,7 +29,11 @@ export default function AboutPage() {
           </div>
           <div className="img-container">
             <div className="img-overlay">
-              <img alt="headshot" src={headshot} />
+              <img
+                alt="Meghan Bucher headshot"
+                aria-label="Meghan Bucher headshot"
+                src={headshot}
+              />
             </div>
           </div>
         </div>

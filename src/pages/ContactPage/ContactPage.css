@@ -10,7 +10,7 @@
 
 .ContactPage .icons > a {
   font-size: 1.6rem;
-  color: var(--bright-red);
+  color: var(--bright-main);
 }
 
 .ContactPage .icons > a:hover {
