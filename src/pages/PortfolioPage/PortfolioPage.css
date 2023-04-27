@@ -56,11 +56,11 @@
   text-transform: lowercase;
 }
 
-.project-card:hover .project-image {
-  transform: scale(1.1);
+.portfolio-card:hover .project-image {
+  transform: scale(1.03);
 }
 
-.project-card:hover .project-overlay {
+.portfolio-card:hover .project-overlay {
   opacity: 1;
 }
 

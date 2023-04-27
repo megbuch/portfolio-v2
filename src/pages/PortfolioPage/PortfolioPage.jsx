@@ -22,11 +22,29 @@ export default function PortfolioPage() {
                 <h3 className="project-title">{project.title}</h3>
                 <p className="project-description">{project.description}</p>
                 <p className="icons">
-                  <a href={project.repoLink} target="_blank" rel="noreferrer">
-                    <FontAwesomeIcon icon={faGithub} />
+                  <a
+                    href={project.repoLink}
+                    target="_blank"
+                    rel="noreferrer"
+                    title={project.titleGithub}
+                    aria-label={project.ariaLabelGithub}
+                  >
+                    <FontAwesomeIcon
+                      icon={faGithub}
+                      aria-label={project.ariaLabelGithub}
+                    />
                   </a>
-                  <a href={project.liveLink} target="_blank" rel="noreferrer">
-                    <FontAwesomeIcon icon={faLink} />
+                  <a
+                    href={project.liveLink}
+                    target="_blank"
+                    rel="noreferrer"
+                    title={project.titleLive}
+                    aria-label={project.ariaLabelLive}
+                  >
+                    <FontAwesomeIcon
+                      icon={faLink}
+                      aria-label={project.ariaLabelLive}
+                    />
                   </a>
                 </p>
               </div>

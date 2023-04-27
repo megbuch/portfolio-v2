@@ -1,9 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900");
 @import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700&display=swap");
 :root {
-  --light-red: #fc6f76;
-  --bright-red: #e43d45;
-  --dark-red: #c21b24;
+  --bright-red: #df0647;
+  --dark-red: #b40137;
   --transparent-red: #e43d4580;
   --transparent-white: #ffffffce;
   --overlay-red: #f8485738;

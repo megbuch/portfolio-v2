@@ -41,35 +41,40 @@ export default function ContactForm() {
     <form ref={form} onSubmit={sendEmail}>
       <div className="row">
         <div className="col">
-          <label>First Name *</label>
-          <input required type="text" name="user_firstname" />
+          <label htmlFor="user_firstname">First Name *</label>
+          <input
+            required
+            type="text"
+            name="user_firstname"
+            id="user_firstname"
+          />
         </div>
         <div className="col">
-          <label>Last Name *</label>
-          <input required type="text" name="user_lastname" />
+          <label htmlFor="user_lastname">Last Name *</label>
+          <input required type="text" name="user_lastname" id="user_lastname" />
         </div>
       </div>
       <div className="row">
         <div className="col">
-          <label>Company</label>
-          <input type="text" name="user_company" />
+          <label htmlFor="user_company">Company</label>
+          <input type="text" name="user_company" id="user_company" />
         </div>
         <div className="col">
-          <label>Email *</label>
-          <input required type="email" name="user_email" />
+          <label htmlFor="user_email">Email *</label>
+          <input required type="email" name="user_email" id="user_email" />
         </div>
       </div>
       <div className="col">
-        <label>Subject *</label>
-        <input required type="text" name="user_subject" />
-        <label>Message *</label>
-        <textarea required rows="3" name="user_message" />
+        <label htmlFor="user_subject">Subject *</label>
+        <input required type="text" name="user_subject" id="user_subject" />
+        <label htmlFor="user_message">Message *</label>
+        <textarea required rows="3" name="user_message" id="user_message" />
         <ReCAPTCHA
           className="recaptcha"
           sitekey={process.env.REACT_APP_RECAPTCHA_SITE_KEY}
           onChange={onChange}
         />
-        <input type="submit" value="Send Message" />
+        <input type="submit" value="Send Message" aria-label="Send Message" />
       </div>
       <ToastContainer />
     </form>

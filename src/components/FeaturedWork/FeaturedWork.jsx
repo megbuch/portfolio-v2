@@ -37,14 +37,14 @@ export default function FeaturedWork() {
         <div className="mockups">
           <img
             id="gitfunded-frame"
-            alt="gitfunded mockup"
+            alt="GitFunded Mockup Frame"
             className="mockup hidden"
             src={gitfundedFrame}
             ref={(el) => (hiddenElsRef.current[0] = el)}
           />
           <img
             id="gitfunded-mobile"
-            alt="gitfunded mockup"
+            alt="GitFunded Mockup Mobile"
             className="mockup hidden"
             src={gitfundedMobile}
             ref={(el) => (hiddenElsRef.current[1] = el)}
@@ -118,14 +118,14 @@ export default function FeaturedWork() {
         <div className="mockups">
           <img
             id="ledgerly-mobile"
-            alt="ledgerly mockup"
+            alt="Ledgerly Mockup Mobile"
             className="mockup hidden"
             src={ledgerlyMobile}
             ref={(el) => (hiddenElsRef.current[3] = el)}
           />
           <img
             id="ledgerly-frame"
-            alt="ledgerly mockup"
+            alt="Ledgerly Mockup Frame"
             className="mockup hidden"
             src={ledgerlyFrame}
             ref={(el) => (hiddenElsRef.current[4] = el)}
@@ -206,14 +206,14 @@ export default function FeaturedWork() {
         <div className="mockups">
           <img
             id="jobseekr-frame"
-            alt="jobseekr mockup"
+            alt="Jobseekr Mockup Frame"
             className="mockup hidden"
             src={jobseekrFrame}
             ref={(el) => (hiddenElsRef.current[6] = el)}
           />
           <img
             id="jobseekr-mobile"
-            alt="jobseekr mockup"
+            alt="Jobseekr Mockup Mobile"
             className="mockup hidden"
             src={jobseekrMobile}
             ref={(el) => (hiddenElsRef.current[7] = el)}
@@ -298,14 +298,14 @@ export default function FeaturedWork() {
         <div className="mockups">
           <img
             id="npcgen-mobile"
-            alt="npcgen mockup"
+            alt="NPC Generator Mockup Mobile"
             className="mockup hidden"
             src={npcgenMobile}
             ref={(el) => (hiddenElsRef.current[9] = el)}
           />
           <img
             id="npcgen-frame"
-            alt="npcgen mockup"
+            alt="NPC Generator Mockup Frame"
             className="mockup hidden"
             src={npcgenFrame}
             ref={(el) => (hiddenElsRef.current[10] = el)}

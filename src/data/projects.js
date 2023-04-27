@@ -14,6 +14,10 @@ const projects = [
     description: "Python, Django, PostgreSQL",
     repoLink: "https://github.com/megbuch/GitFunded",
     liveLink: "https://gitfunded.herokuapp.com/",
+    titleGitHub: "GitFunded GitHub Link",
+    ariaLabelGitHub: "GitFunded GitHub Link",
+    titleLive: "GitFunded Live Link",
+    ariaLabelLive: "GitFunded Live Link",
   },
   {
     id: 2,
@@ -22,6 +26,10 @@ const projects = [
     description: "JavaScript, React, Express, Node.js, MongoDB",
     repoLink: "https://github.com/megbuch/ledgerly",
     liveLink: "https://ledgerly-accounting.herokuapp.com/",
+    titleGitHub: "Ledgerly GitHub Link",
+    ariaLabelGitHub: "Ledgerly GitHub Link",
+    titleLive: "Ledgerly Live Link",
+    ariaLabelLive: "Ledgerly Live Link",
   },
   {
     id: 3,
@@ -30,6 +38,10 @@ const projects = [
     description: "JavaScript, Express, Node.js, MongoDB",
     repoLink: "https://github.com/megbuch/job-seekr-app",
     liveLink: "https://job-seekr.herokuapp.com/",
+    titleGitHub: "jobSeekr GitHub Link",
+    ariaLabelGitHub: "jobSeekr GitHub Link",
+    titleLive: "jobSeekr Live Link",
+    ariaLabelLive: "jobSeekr Live Link",
   },
   {
     id: 4,
@@ -38,6 +50,10 @@ const projects = [
     description: "Vanilla JavaScript",
     repoLink: "https://github.com/megbuch/npc-generator",
     liveLink: "https://npcgen.com/",
+    titleGitHub: "NPC Generator GitHub Link",
+    ariaLabelGitHub: "NPC Generator GitHub Link",
+    titleLive: "NPC Generator Live Link",
+    ariaLabelLive: "NPC Generator Live Link",
   },
   {
     id: 4,
@@ -46,6 +62,10 @@ const projects = [
     description: "Vanilla JavaScript",
     repoLink: "https://github.com/megbuch/simon-says-game",
     liveLink: "https://simonsays-mb.netlify.app/",
+    titleGitHub: "Simon Says GitHub Link",
+    ariaLabelGitHub: "Simon Says GitHub Link",
+    titleLive: "Simon Says Live Link",
+    ariaLabelLive: "Simon Says Live Link",
   },
   {
     id: 5,
@@ -54,6 +74,10 @@ const projects = [
     description: "Vanilla JavaScript",
     repoLink: "https://github.com/megbuch/portfolio",
     liveLink: "https://meghanbucher-v1.netlify.app/",
+    titleGitHub: "Portfolio V1 GitHub Link",
+    ariaLabelGitHub: "Portfolio V1 GitHub Link",
+    titleLive: "Portfolio V1 Live Link",
+    ariaLabelLive: "Portfolio V1 Live Link",
   },
   {
     id: 6,
@@ -62,6 +86,10 @@ const projects = [
     description: "JavaScript, React",
     repoLink: "https://github.com/megbuch/portfolio-v2",
     liveLink: "https://meghanbucher.work",
+    titleGitHub: "Portfolio V2 GitHub Link",
+    ariaLabelGitHub: "Portfolio V2 GitHub Link",
+    titleLive: "Portfolio V2 Live Link",
+    ariaLabelLive: "Portfolio V2 Live Link",
   },
 ];
 

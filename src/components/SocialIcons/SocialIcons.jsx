@@ -14,16 +14,26 @@ export default function SocialIcons() {
         href="mailto: hiremeghanbucher@gmail.com"
         target="_blank"
         rel="noreferrer"
+        title="Send me an Email"
+        aria-label="Send me an Email"
       >
         <FontAwesomeIcon icon={faEnvelope} />
       </a>
-      <a href="https://github.com/megbuch" target="_blank" rel="noreferrer">
+      <a
+        href="https://github.com/megbuch"
+        target="_blank"
+        rel="noreferrer"
+        title="Visit my GitHub"
+        aria-label="Visit my GitHub"
+      >
         <FontAwesomeIcon icon={faGithub} />
       </a>
       <a
         href="https://linkedin.com/in/meghanbucher"
         target="_blank"
         rel="noreferrer"
+        title="Visit my LinkedIn"
+        aria-label="Visit my LinkedIn"
       >
         <FontAwesomeIcon icon={faLinkedin} />
       </a>
