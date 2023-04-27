@@ -71,14 +71,18 @@ export default function Nav({ toggleTheme, theme }) {
       </ul>
       <div className="hamburger-ctr" onClick={handleHamburgerClick}>
         {isMobileMenuOpen ? (
-          <FaTimes className="hamburger-icon" />
+          <FaTimes className="hamburger-icon" aria-label="Close Mobile Nav" />
         ) : (
-          <FaBars className="hamburger-icon" />
+          <FaBars className="hamburger-icon" aria-label="Open Mobile Nav" />
         )}
       </div>
       <ul className={isMobileMenuOpen ? "mobile-links open" : "mobile-links"}>
         <li>
-          <button className="toggle-button" onClick={toggleTheme}>
+          <button
+            className="toggle-button"
+            onClick={toggleTheme}
+            aria-label="Toggle Dark Mode"
+          >
             <FontAwesomeIcon icon={theme === "" ? faMoon : faLightbulb} />
           </button>
         </li>

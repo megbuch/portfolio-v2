@@ -2,9 +2,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700&display=swap");
 :root {
   --background-color: white;
-  --light-main: #cc619c;
-  --bright-main: #a73774;
-  --dark-main: #af0562;
+  --light-main: #907cff;
+  --bright-main: #6c52ff;
+  --dark-main: #4f34e2;
   --transparent-white: #ffffffe0;
   --accent-gray-line: #f1efee;
   --deep-gray: #333131;
@@ -13,13 +13,18 @@
   --white: #fff;
   --footer: #1b1a1a;
   --box-shadow: 0 0 5px #c0b4b4;
+  --language: #fce6e7;
+  --framework: #e5f5fd;
+  --database: #eeeafd;
+  --other: #e5fae3;
+  --design: #fdf1fb;
 }
 
 .dark {
   --background-color: #181616;
   --light-main: #c5bbff;
-  --bright-main: #927ffd;
-  --dark-main: #5240b9;
+  --bright-main: #9886ff;
+  --dark-main: #4226e2;
   --transparent-white: #141414f1;
   --accent-gray-line: #222020;
   --deep-gray: #c7bebe;
@@ -28,6 +33,11 @@
   --white: white;
   --footer: #000;
   --box-shadow: 0 3px 8px #000000;
+  --language: #ffd6db;
+  --framework: #a8e2ff;
+  --database: #cbbefa;
+  --other: #ccf3c9;
+  --design: #fdd1f6;
 }
 
 * {
@@ -61,10 +71,11 @@ a {
   text-decoration: none;
   text-transform: lowercase;
   font-weight: 600;
+  transition: 400ms ease-out;
 }
 
 a:hover {
-  color: var(--black);
+  color: var(--dark-main);
 }
 
 section {

@@ -25,27 +25,27 @@
 }
 
 .language {
-  background: #fce6e7;
-  color: #cc0610;
+  background: var(--language);
+  color: #a7060e;
 }
 
 .library-framework {
-  background: #e5f5fd;
+  background: var(--framework);
   color: #0454cc;
 }
 
 .database {
-  background: #eeeafd;
+  background: var(--database);
   color: #401ddd;
 }
 
 .other {
-  background: #e5fae3;
+  background: var(--other);
   color: #05741d;
 }
 
 .design {
-  background: #fdf1fb;
+  background: var(--design);
   color: #b10870;
 }
 

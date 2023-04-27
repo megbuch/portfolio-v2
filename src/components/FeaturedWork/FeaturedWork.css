@@ -9,11 +9,11 @@
 
 .FeaturedWork h3 > a {
   color: var(--light-main);
-  font-weight: 500;
+  font-weight: 700;
 }
 
 .FeaturedWork h3 > a:hover {
-  color: var(--bright-main);
+  color: var(--dark-main);
 }
 
 .hidden {
