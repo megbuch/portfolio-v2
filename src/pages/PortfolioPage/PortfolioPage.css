@@ -57,7 +57,7 @@
 }
 
 .portfolio-card:hover .project-image {
-  transform: scale(1.03);
+  transform: scale(1.01);
 }
 
 .portfolio-card:hover .project-overlay {
@@ -67,6 +67,20 @@
 .project-overlay > .icons {
   font-size: 1.5rem;
   gap: 1rem;
+}
+
+.portfolio-buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+.portfolio-buttons .btn {
+  width: 5rem;
+}
+
+.active {
+  background-color: var(--dark-red);
+  box-shadow: 0px 1px 2px rgb(182, 178, 178);
 }
 
 @media only screen and (max-width: 800px) {

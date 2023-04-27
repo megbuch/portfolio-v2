@@ -19,6 +19,7 @@ const projects = [
     ariaLabelGitHub: "GitFunded GitHub Link",
     titleLive: "GitFunded Live Link",
     ariaLabelLive: "GitFunded Live Link",
+    category: "personal",
   },
   {
     id: 2,
@@ -31,6 +32,7 @@ const projects = [
     ariaLabelGitHub: "Ledgerly GitHub Link",
     titleLive: "Ledgerly Live Link",
     ariaLabelLive: "Ledgerly Live Link",
+    category: "personal",
   },
   {
     id: 3,
@@ -43,6 +45,7 @@ const projects = [
     ariaLabelGitHub: "jobSeekr GitHub Link",
     titleLive: "jobSeekr Live Link",
     ariaLabelLive: "jobSeekr Live Link",
+    category: "personal",
   },
   {
     id: 4,
@@ -55,6 +58,7 @@ const projects = [
     ariaLabelGitHub: "NPC Generator GitHub Link",
     titleLive: "NPC Generator Live Link",
     ariaLabelLive: "NPC Generator Live Link",
+    category: "personal",
   },
   {
     id: 5,
@@ -67,6 +71,7 @@ const projects = [
     ariaLabelGitHub: "Simon Says GitHub Link",
     titleLive: "Simon Says Live Link",
     ariaLabelLive: "Simon Says Live Link",
+    category: "personal",
   },
   {
     id: 6,
@@ -79,6 +84,7 @@ const projects = [
     ariaLabelGitHub: "Portfolio V1 GitHub Link",
     titleLive: "Portfolio V1 Live Link",
     ariaLabelLive: "Portfolio V1 Live Link",
+    category: "personal",
   },
   {
     id: 7,
@@ -91,9 +97,10 @@ const projects = [
     ariaLabelGitHub: "Portfolio V2 GitHub Link",
     titleLive: "Portfolio V2 Live Link",
     ariaLabelLive: "Portfolio V2 Live Link",
+    category: "personal",
   },
   {
-    id: 7,
+    id: 8,
     title: "SpaceLab",
     mockup: spacelabFrame,
     description: "JavaScript, React, HTML5, SCSS",
@@ -103,6 +110,7 @@ const projects = [
     ariaLabelGitHub: "SpaceLab GitHub Link",
     titleLive: "SpaceLab Live Link",
     ariaLabelLive: "SpaceLab Live Link",
+    category: "work",
   },
 ];
 

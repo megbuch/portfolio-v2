@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900");
 @import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700&display=swap");
 :root {
+  --light-red: #f51f5f;
   --bright-red: #df0647;
   --dark-red: #b40137;
   --transparent-red: #e43d4580;
@@ -110,12 +111,14 @@ h2 {
   transition: 100ms ease-in-out;
   position: relative;
   top: 0px;
+  border: none;
+  color: white;
+  font: 15px "Mulish", Helvetica, Arial, sans-serif;
 }
 
 .btn:hover {
   background-color: var(--dark-red);
   cursor: pointer;
-  color: white;
   top: -2px;
 }
 

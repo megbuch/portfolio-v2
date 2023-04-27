@@ -1,4 +1,5 @@
 import "./PortfolioPage.css";
+import { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { faLink } from "@fortawesome/free-solid-svg-icons";
@@ -8,11 +9,61 @@ import projects from "../../data/projects";
 library.add(faLink, faGithub);
 
 export default function PortfolioPage() {
+  const [showAllProjects, setShowAllProjects] = useState(true);
+  const [showPersonalProjects, setShowPersonalProjects] = useState(false);
+  const [showWorkProjects, setShowWorkProjects] = useState(false);
+
+  let filteredProjects = [];
+
+  if (showAllProjects) {
+    filteredProjects = projects;
+  } else if (showPersonalProjects) {
+    filteredProjects = projects.filter(
+      (project) => project.category === "personal"
+    );
+  } else if (showWorkProjects) {
+    filteredProjects = projects.filter(
+      (project) => project.category === "work"
+    );
+  }
+
   return (
     <section>
       <h2>Portfolio.</h2>
+      <div className="portfolio-buttons">
+        <button
+          className={`btn ${showAllProjects ? "active" : ""}`}
+          onClick={() => {
+            setShowAllProjects(true);
+            setShowPersonalProjects(false);
+            setShowWorkProjects(false);
+          }}
+        >
+          all
+        </button>
+        <button
+          className={`btn ${showPersonalProjects ? "active" : ""}`}
+          onClick={() => {
+            setShowAllProjects(false);
+            setShowPersonalProjects(true);
+            setShowWorkProjects(false);
+          }}
+        >
+          personal
+        </button>
+        <button
+          className={`btn ${showWorkProjects ? "active" : ""}`}
+          onClick={() => {
+            setShowAllProjects(false);
+            setShowPersonalProjects(false);
+            setShowWorkProjects(true);
+          }}
+        >
+          work
+        </button>
+      </div>
       <div className="portfolio-container">
-        {projects.map((project) => (
+        {filteredProjects.map((project) => (
           <div className="portfolio-card" key={project.id}>
             <div
               className="project-image"
