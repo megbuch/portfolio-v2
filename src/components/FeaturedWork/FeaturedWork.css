@@ -9,7 +9,7 @@
 
 .FeaturedWork h3 > a {
   color: var(--light-main);
-  font-weight: 700;
+  font-weight: 500;
 }
 
 .FeaturedWork h3 > a:hover {

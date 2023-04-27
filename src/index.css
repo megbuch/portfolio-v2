@@ -22,14 +22,14 @@
 
 .dark {
   --background-color: #181616;
-  --light-main: #c5bbff;
+  --light-main: #d8d1ff;
   --bright-main: #9886ff;
-  --dark-main: #4226e2;
+  --dark-main: #6a53f0;
   --transparent-white: #141414f1;
   --accent-gray-line: #222020;
-  --deep-gray: #c7bebe;
+  --deep-gray: #dfdbdb;
   --medium-gray: #a8a5a5;
-  --black: #e0dada;
+  --black: #ffffff;
   --white: white;
   --footer: #000;
   --box-shadow: 0 3px 8px #000000;
@@ -96,7 +96,7 @@ h2 {
   text-transform: lowercase;
   font-size: 3rem;
   font-weight: 300;
-  letter-spacing: -3px;
+  letter-spacing: 0;
   line-height: 1.7;
 }
 
