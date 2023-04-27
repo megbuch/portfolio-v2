@@ -14,5 +14,5 @@
 }
 
 .ContactPage .icons > a:hover {
-  color: black;
+  color: var(--black);
 }

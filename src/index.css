@@ -1,13 +1,33 @@
 @import url("https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900");
 @import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700&display=swap");
 :root {
+  --background-color: white;
   --light-main: #cc619c;
   --bright-main: #a73774;
   --dark-main: #af0562;
-  --transparent-white: #ffffffce;
+  --transparent-white: #ffffffe0;
   --accent-gray-line: #f1efee;
   --deep-gray: #333131;
   --medium-gray: #5f5d5d;
+  --black: #000;
+  --white: #fff;
+  --footer: #1b1a1a;
+  --box-shadow: 0 0 5px #c0b4b4;
+}
+
+.dark {
+  --background-color: #181616;
+  --light-main: #c5bbff;
+  --bright-main: #927ffd;
+  --dark-main: #5240b9;
+  --transparent-white: #141414f1;
+  --accent-gray-line: #222020;
+  --deep-gray: #c7bebe;
+  --medium-gray: #a8a5a5;
+  --black: #e0dada;
+  --white: white;
+  --footer: #000;
+  --box-shadow: 0 3px 8px #000000;
 }
 
 * {
@@ -26,8 +46,8 @@ body {
   font: 16px "Mulish", Helvetica, Arial, sans-serif;
   font-weight: 500;
   line-height: 2.2;
-  background: white;
-  color: black;
+  background: var(--background-color);
+  color: var(--black);
   position: relative;
   height: 100%;
 }
@@ -44,7 +64,7 @@ a {
 }
 
 a:hover {
-  color: black;
+  color: var(--black);
 }
 
 section {
@@ -122,7 +142,7 @@ h2 {
 }
 
 .btn > a {
-  /* color: white; */
+  color: white;
   text-transform: lowercase;
   font-weight: 300;
   letter-spacing: 1px;

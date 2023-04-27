@@ -1,7 +1,3 @@
-.icons > a:hover {
-  color: black;
-}
-
 .icons {
   font-size: 1.2rem;
   display: flex;

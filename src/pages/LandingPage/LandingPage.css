@@ -5,7 +5,7 @@
   align-items: center;
   text-align: center;
   gap: 1rem;
-  background-color: rgb(247, 247, 247);
+  background-color: var(--accent-gray-line);
   padding: 8rem 0 3rem 0;
   margin-bottom: -3rem;
 }
@@ -23,7 +23,6 @@
   font-size: 2rem;
   font-weight: 400;
   letter-spacing: -1px;
-  color: rgb(34, 34, 34);
   opacity: 0;
   transform: translateX(20px);
   animation: fadeRight 2s ease-out forwards;
@@ -50,9 +49,12 @@
 }
 
 .btn-3 {
-  color: white;
   margin: 0 auto 4rem;
   width: 12rem;
+}
+
+.btn-3:hover {
+  color: white;
 }
 
 @keyframes fadeLeft {

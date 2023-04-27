@@ -1,7 +1,7 @@
 .navbar-links {
   font-size: 1.1rem;
-  background-color: #ffffffe1;
-  border-bottom: 1px solid rgba(245, 245, 245, 0.904);
+  background-color: var(--transparent-white);
+  box-shadow: var(--box-shadow);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -57,11 +57,30 @@
 }
 
 .mobile-link a:hover {
-  color: black;
+  color: var(--black);
 }
 
 .open {
   transform: translateY(0%);
+}
+
+.toggle-theme-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.toggle-button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  padding: 0;
+  color: var(--bright-main);
+  font-size: 1.4rem;
+}
+
+.toggle-button:hover {
+  color: var(--dark-main);
 }
 
 @media only screen and (max-width: 800px) {

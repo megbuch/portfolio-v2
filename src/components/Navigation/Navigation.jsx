@@ -1,10 +1,16 @@
 import React, { useEffect, useState } from "react";
+import { library } from "@fortawesome/fontawesome-svg-core";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faSun } from "@fortawesome/free-solid-svg-icons";
+import { faMoon } from "@fortawesome/free-solid-svg-icons";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import resume from "../../assets/documents/resume.pdf";
 import "./Navigation.css";
 
-export default function Nav() {
+library.add(faSun, faMoon);
+
+export default function Nav({ toggleTheme, theme }) {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   const handleHamburgerClick = () => {
@@ -59,6 +65,11 @@ export default function Nav() {
             Resume
           </a>
         </li>
+        <div className="toggle-theme-container">
+          <button className="toggle-button" onClick={toggleTheme}>
+            <FontAwesomeIcon icon={theme === "" ? faSun : faMoon} />
+          </button>
+        </div>
       </ul>
       <div className="hamburger-ctr" onClick={handleHamburgerClick}>
         {isMobileMenuOpen ? (

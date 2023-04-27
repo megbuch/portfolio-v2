@@ -12,8 +12,8 @@
   align-items: center;
   text-align: center;
   padding: 15px;
-  background-color: #f9f9f9;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.123);
+  background-color: var(--accent-gray-line);
+  box-shadow: var(--box-shadow);
 }
 
 .Education .card h3 {
