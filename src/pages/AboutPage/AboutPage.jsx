@@ -15,7 +15,8 @@ export default function AboutPage() {
               San Francisco Bay Area. My passion is delivering engaging,
               memorable, and meaningful user experiences. Thriving in the front
               end, I enjoy working at the intersection of art and functionality.
-              Currently, I'm developing the front end at&nbsp;
+              Although I'm actively seeking new opportunities, I'm currently
+              developing the front end at&nbsp;
               <a
                 target="_blank"
                 rel="noreferrer"
@@ -24,6 +25,11 @@ export default function AboutPage() {
                 SpaceLab
               </a>
               . 🚀
+              <br />
+              <br />
+              When I get a break from coding, you can often find me practicing
+              the harp, piano, or guitar, or spending time with my cats, Ajax
+              and Ikaros. 🐈
             </p>
             <br />
           </div>
