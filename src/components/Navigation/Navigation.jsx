@@ -46,10 +46,10 @@ export default function Nav({ toggleTheme, theme }) {
           <Link to="/">Home</Link>
         </li>
         <li className="navbar-link">
-          <Link to="/portfolio">Portfolio</Link>
+          <Link to="/about">About</Link>
         </li>
         <li className="navbar-link">
-          <Link to="/about">About</Link>
+          <Link to="/portfolio">Portfolio</Link>
         </li>
         <li className="navbar-link">
           <Link to="/contact">Contact</Link>
