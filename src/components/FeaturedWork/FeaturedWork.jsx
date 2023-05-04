@@ -56,7 +56,7 @@ export default function FeaturedWork() {
         >
           <h3>
             <a
-              href="https://gitfunded.herokuapp.com/"
+              href="https://gitfunded.up.railway.app/"
               rel="noreferrer"
               target="_blank"
             >
@@ -106,7 +106,7 @@ export default function FeaturedWork() {
           </a>
           &nbsp;&nbsp;&nbsp;&nbsp;
           <a
-            href="https://gitfunded.herokuapp.com/"
+            href="https://gitfunded.up.railway.app/"
             rel="noreferrer"
             target="_blank"
           >
@@ -137,7 +137,7 @@ export default function FeaturedWork() {
         >
           <h3>
             <a
-              href="https://ledgerly-accounting.herokuapp.com/"
+              href="https://ledgerly.up.railway.app/"
               rel="noreferrer"
               target="_blank"
             >
@@ -194,7 +194,7 @@ export default function FeaturedWork() {
           </a>
           &nbsp;&nbsp;&nbsp;&nbsp;
           <a
-            href="https://ledgerly-accounting.herokuapp.com/"
+            href="https://ledgerly.up.railway.app/"
             rel="noreferrer"
             target="_blank"
           >
@@ -225,7 +225,7 @@ export default function FeaturedWork() {
         >
           <h3>
             <a
-              href="https://job-seekr.herokuapp.com/"
+              href="https://jobseekr.up.railway.app/"
               rel="noreferrer"
               target="_blank"
             >
@@ -286,7 +286,7 @@ export default function FeaturedWork() {
           </a>
           &nbsp;&nbsp;&nbsp;&nbsp;
           <a
-            href="https://job-seekr.herokuapp.com/"
+            href="https://jobseekr.up.railway.app/"
             rel="noreferrer"
             target="_blank"
           >
