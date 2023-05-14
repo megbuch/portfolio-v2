@@ -18,6 +18,8 @@
   --database: #eeeafd;
   --other: #e5fae3;
   --design: #fdf1fb;
+  --form: #f3f3f3;
+  --form-border: ;
 }
 
 .dark {
@@ -38,6 +40,7 @@
   --database: #cbbefa;
   --other: #ccf3c9;
   --design: #fdd1f6;
+  --form: #39364d;
 }
 
 * {

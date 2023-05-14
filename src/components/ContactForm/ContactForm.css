@@ -1,13 +1,12 @@
 form {
-  width: 30rem;
-  background-color: rgb(243, 243, 243);
+  width: 32rem;
+  background-color: var(--form);
   display: flex;
   flex-direction: column;
   padding: 1rem;
   font-size: 12px;
   font-weight: 700;
   border-radius: 8px;
-  border: 1px solid rgb(240, 240, 240);
 }
 
 form > .row,
@@ -32,19 +31,14 @@ textarea {
   font-weight: 600;
 }
 
-input:focus,
-textarea:focus {
-  background: rgb(255, 205, 205);
-}
-
 label {
   margin-bottom: -6px;
-  color: rgb(78, 78, 78);
+  color: var(--deep-gray);
 }
 
 input[type="submit"] {
   background-color: var(--bright-main);
-  border: 1px solid var(--light-main);
+  border: none;
   padding: 1.5rem;
   font: 18px "Mulish", Helvetica, Arial, sans-serif;
   font-weight: 500;
@@ -62,16 +56,9 @@ input[type="submit"]:hover {
   margin: 1rem;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 600px) {
   form {
-    width: 90vw;
-  }
-}
-
-@media only screen and (max-width: 450px) {
-  form {
-    width: 100vw;
-    height: 100%;
+    width: 100%;
     border-radius: 0;
   }
 }
