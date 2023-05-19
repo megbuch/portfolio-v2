@@ -63,45 +63,47 @@ export default function PortfolioPage() {
         </button>
       </div>
       <div className="portfolio-container">
-        {filteredProjects.map((project) => (
-          <div className="portfolio-card" key={project.id}>
-            <div
-              className="project-image"
-              style={{ backgroundImage: `url(${project.mockup})` }}
-            >
-              <div className="project-overlay">
-                <h3 className="project-title">{project.title}</h3>
-                <p className="project-description">{project.description}</p>
-                <p className="icons">
-                  <a
-                    href={project.repoLink}
-                    target="_blank"
-                    rel="noreferrer"
-                    title={project.titleGithub}
-                    aria-label={project.ariaLabelGithub}
-                  >
-                    <FontAwesomeIcon
-                      icon={faGithub}
+        {filteredProjects
+          .sort((a, b) => b.id - a.id)
+          .map((project) => (
+            <div className="portfolio-card" key={project.id}>
+              <div
+                className="project-image"
+                style={{ backgroundImage: `url(${project.mockup})` }}
+              >
+                <div className="project-overlay">
+                  <h3 className="project-title">{project.title}</h3>
+                  <p className="project-description">{project.description}</p>
+                  <p className="icons">
+                    <a
+                      href={project.repoLink}
+                      target="_blank"
+                      rel="noreferrer"
+                      title={project.titleGithub}
                       aria-label={project.ariaLabelGithub}
-                    />
-                  </a>
-                  <a
-                    href={project.liveLink}
-                    target="_blank"
-                    rel="noreferrer"
-                    title={project.titleLive}
-                    aria-label={project.ariaLabelLive}
-                  >
-                    <FontAwesomeIcon
-                      icon={faLink}
+                    >
+                      <FontAwesomeIcon
+                        icon={faGithub}
+                        aria-label={project.ariaLabelGithub}
+                      />
+                    </a>
+                    <a
+                      href={project.liveLink}
+                      target="_blank"
+                      rel="noreferrer"
+                      title={project.titleLive}
                       aria-label={project.ariaLabelLive}
-                    />
-                  </a>
-                </p>
+                    >
+                      <FontAwesomeIcon
+                        icon={faLink}
+                        aria-label={project.ariaLabelLive}
+                      />
+                    </a>
+                  </p>
+                </div>
               </div>
             </div>
-          </div>
-        ))}
+          ))}
       </div>
     </section>
   );

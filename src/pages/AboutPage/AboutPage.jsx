@@ -15,16 +15,10 @@ export default function AboutPage() {
               San Francisco Bay Area. My passion is delivering engaging,
               memorable, and meaningful user experiences. Thriving in the front
               end, I enjoy working at the intersection of art and functionality.
-              Although I'm actively seeking new opportunities, I'm currently
-              developing the front end at&nbsp;
-              <a
-                target="_blank"
-                rel="noreferrer"
-                href="https://spacelab.space/"
-              >
-                SpaceLab
-              </a>
-              . 🚀
+              <br />
+              <br />
+              Currently, I'm a Front End Software Engineer at MTI - Mobile
+              Technologies, Inc.
               <br />
               <br />
               When I get a break from coding, you can often find me practicing
