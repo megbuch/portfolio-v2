@@ -6,14 +6,6 @@ export default function Education() {
       <h2>Education.</h2>
       <div className="cards">
         <div className="card">
-          <h3>B.S. Business Administration, Management Information Systems</h3>
-          <p>
-            San Jose State University
-            <br />
-            Est. Grad. June 2025
-          </p>
-        </div>
-        <div className="card">
           <h3>A.S. Business Administration</h3>
           <p>
             De Anza College

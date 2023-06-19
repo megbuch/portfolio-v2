@@ -1,5 +1,6 @@
 import "./Footer.css";
 import { Link } from "react-router-dom";
+import resume from "../../assets/documents/resume.pdf";
 import SocialIcons from "../SocialIcons/SocialIcons";
 
 export default function Footer() {
@@ -39,9 +40,17 @@ export default function Footer() {
       </div>
       <div className="footer-links">
         <Link to="/">Home</Link>
-        <Link to="/portfolio">Portfolio</Link>
         <Link to="/about">About</Link>
-        <Link to="/contact">Contact</Link>
+        <Link to="/portfolio">Portfolio</Link>
+        <a
+          href={resume}
+          rel="noreferrer"
+          target="_blank"
+          title="View My Resume"
+          aria-label="View My Resume"
+        >
+          Resume
+        </a>
       </div>
       <div className="copyright">
         <SocialIcons />

@@ -52,9 +52,6 @@ export default function Nav({ toggleTheme, theme }) {
           <Link to="/portfolio">Portfolio</Link>
         </li>
         <li className="navbar-link">
-          <Link to="/contact">Contact</Link>
-        </li>
-        <li className="navbar-link">
           <a
             href={resume}
             rel="noreferrer"
@@ -99,11 +96,6 @@ export default function Nav({ toggleTheme, theme }) {
         <li className="mobile-link">
           <Link to="/portfolio" onClick={handleMobileMenuClick}>
             Portfolio
-          </Link>
-        </li>
-        <li className="mobile-link">
-          <Link to="/contact" onClick={handleMobileMenuClick}>
-            Contact
           </Link>
         </li>
         <li className="mobile-link">

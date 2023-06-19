@@ -4,7 +4,6 @@ import Nav from "../../components/Navigation/Navigation";
 import LandingPage from "../../pages/LandingPage/LandingPage";
 import AboutPage from "../../pages/AboutPage/AboutPage";
 import PortfolioPage from "../PortfolioPage/PortfolioPage";
-import ContactPage from "../ContactPage/ContactPage";
 import Footer from "../../components/Footer/Footer";
 import { useState, useEffect } from "react";
 
@@ -30,7 +29,6 @@ function App() {
         <Route path="/" element={<LandingPage />} />
         <Route path="/portfolio" element={<PortfolioPage />} />
         <Route path="/about" element={<AboutPage />} />
-        <Route path="/contact" element={<ContactPage />} />
       </Routes>
       <Footer />
     </div>
